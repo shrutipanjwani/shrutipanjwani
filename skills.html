@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="icon" href="assets/img/logo.png" />
+        <title>Shruti Panjwani</title>
+    </head>
+    <body data-barba="wrapper">
+
+        <ul class="transition">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html" class="nav__logo">shrutipanjwani.</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close">
+                        <ion-icon name="close-outline" class="nav__close-icon" id="nav-close"></ion-icon>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="work.html" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="joinmybootcamp.html" class="nav__link">Join my Bootcamp</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main bd-grid" data-barba="container" data-barba-namepsace="home">
+            <div class="home">
+
+                <div class="about__title">
+                    <h2>
+                        <span class="heading" id="create">Skills &amp;</span>
+                    </h2>
+                    <h2>
+                        <span id="create"> Experience</span>
+                    </h2>
+                </div>
+
+                <div class="about__para">
+                    <div class="skills">
+                        <li>
+                            <h3>HTML5</h3><span class="bar"><span class="html"></span></span>
+                        </li>
+                        <li>
+                            <h3>CSS3</h3><span class="bar"><span class="css"></span></span>
+                        </li>
+                        <li>
+                            <h3>Javascript</h3><span class="bar"><span class="js"></span></span>
+                        </li>
+                        <li>
+                            <h3>JQuery</h3><span class="bar"><span class="jq"></span></span>
+                        </li>
+                        <!-- <li>
+                            <h3>Mongo DB</h3><span class="bar"><span class="mongo"></span></span>
+                        </li>
+                        <li>
+                            <h3>Express JS</h3><span class="bar"><span class="express"></span></span>
+                        </li>
+                        <li>
+                            <h3>Node JS</h3><span class="bar"><span class="node"></span></span>
+                        </li> -->
+                        <li>
+                            <h3>React JS</h3><span class="bar"><span class="react"></span></span>
+                        </li>
+                        <li>
+                            <h3>MERN Stack</h3><span class="bar"><span class="mern"></span></span>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://twitter.com/_shrutipanjwani" target="_blank" class="home__social-link">twitter</a>
+                    <a href="https://instagram.com/_shrutipanjwani" target="_blank" class="home__social-link">instagram</a>
+                    <a href="https://www.linkedin.com/in/shruti-panjwani-348306193" target="_blank" class="home__social-link">linkedIn</a>
+                    <a href="https://github.com/shrutipanjwani/" target="_blank" class="home__social-link">github</a>
+                </div>
+
+                <a href="contact.html" class="home__button">Lets Connect <ion-icon name="arrow-forward-outline" class="home__button-icon"></ion-icon></a>
+            </div>
+        </main>
+        <!-- MAIN -->
+
+        <footer>
+            <div class="footer">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="reveal-holder">
+                    <div class="reveal-block right" data-aos="reveal-right"></div>
+                    <h2 class="reveal-text">Let's talk about your project</h2>
+                </div>
+                <br>
+                <div class="reveal-holder">
+                    <div class="reveal-block right" data-aos="reveal-right"></div>
+                    <a class="email" href="mailto:shrutipanjwani13@gmail.com">shrutipanjwani13@gmail.com</a>
+                </div>
+
+                <div class="reveal-holder">
+                    <div class="reveal-block right" data-aos="reveal-right"></div>
+                    <div class="copy">&copy; 2021, Designed and Developed by 
+                    <a href="http://shrutipanjwani.com/">shrutipanjwani</a></div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="assets/js/main.js"></script>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!-- THREE JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"></script>
+
+        <!-- HOVER-EFFECT JS -->
+        <script src="assets/js/hover-effect.umd.js"></script>
+        
+         <!-- ICONOS -->
+        <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+
+        <!-- Barba Core -->
+        
+        <script src="https://unpkg.com/@barba/core"></script>
+
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+
+            gsap.to("#create", {y: '0%', duration:0.7, stagger:0.2});
+            gsap.from('.nav', {opacity: 0, duration: 1, delay:1, y: -30})
+            gsap.from('.home__social', {opacity: 0, duration: 1, delay:1.5, y: 50})
+            gsap.from('.home__button', {opacity: 0, duration: 1, delay:1.8, y: 50})
+            // gsap.from('.about__para', {opacity: 0, duration: 1, delay:2, y: 50})
+    
+        </script>
+        <script>
+            /* Barba */
+            function pageTransition() {
+                var tl = gsap.timeline();
+                
+                tl.to('ul .transition li', {duration: .5, scaleY: 1, transformOrigin: "bottom left", stagger: .2})
+                tl.to('ul .transition li', {duration: .5, scaleY: 0, transformOrigin: "bottom left", stagger: .1, delay: .1})
+            }
+
+            function contentAnimation() {
+
+                var tl = gsap.timeline();
+                tl.from('.home__img', {duration: 1.5, translateY: 50, opacity: 0})
+                tl.to('img', {clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)"}, "-=1.1")
+
+            }
+
+            function delay(n) {
+                n = n || 2000;
+                return new Promise(done => {
+                    setTimeout(() => {
+                        done();
+                    }, n);
+                });
+            }
+
+            barba.init({
+                sync: true,
+
+                transitions: [{
+                    async leave(data) {
+                        const done = this.async();
+                        pageTransition();
+                        await delay(1500);
+                        done();
+                    },
+                    async enter(data) {
+                        contentAnimation();
+                    },
+                    async once(data) {
+                        contentAnimation();
+                    }
+                }]
+            });
+
+            AOS.init({
+                duration: 500,
+                easing: 'ease-out-quart',
+                once: true
+            });
+        </script>
+        
+    </body>
+</html>
