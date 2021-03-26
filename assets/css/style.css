@@ -434,7 +434,7 @@ ul .transition li {
 
 @media (max-width: 600px){
   .work__social{
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
   .work__button{
     margin-bottom: 3rem;
@@ -695,6 +695,7 @@ ul .transition li {
 @media (max-width: 395px){
   .work__para{
     margin-left: 0.5rem;
+    margin-top: -1rem;
   }
   .box{
     width: 290px;
