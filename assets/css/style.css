@@ -55,7 +55,7 @@ body {
 }
 
 body {
-	min-height: 95vh;
+	min-height: 92vh;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -195,7 +195,7 @@ ul .transition li {
 
 /*Home*/
 .l-main {
-  height: calc(95vh - 3rem);
+  height: calc(92vh - 3rem);
 }
 
 .home {
