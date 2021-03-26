@@ -683,6 +683,7 @@ ul .transition li {
   }
   .work__para{
     margin-left: 1rem;
+    margin-top: -1rem;
   }
   .box{
     width: 310px;
@@ -695,7 +696,6 @@ ul .transition li {
 @media (max-width: 395px){
   .work__para{
     margin-left: 0.5rem;
-    margin-top: -1rem;
   }
   .box{
     width: 290px;
