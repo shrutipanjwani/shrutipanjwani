@@ -9,20 +9,17 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/lightslider.css">
-        <script type="text/javascript" src="assets/js/JQuery3.3.1.js"></script>
-        <script type="text/javascript" src="assets/js/lightslider.js"></script>
-
         <title>Shruti Panjwani</title>
     </head>
     <body data-barba="wrapper" style="height: 0px !important;overflow:hidden;">
 
-        <ul class="transition">
+        <!-- <ul class="transition">
             <li></li>
             <li></li>
             <li></li>
             <li></li>
             <li></li>
-        </ul>
+        </ul> -->
 
         <header class="l-header">
             <nav class="nav bd-grid">
@@ -65,7 +62,7 @@
                         <ul id="autoWidth" class="cs-hidden">
                             <li class="item-a">
                                 <div class="box">
-                                    <img src="assets/img/ss.jpg" alt="" class="model">
+                                    <img src="assets/img/ss.webp" alt="" class="model">
                                     <div class="details">
                                         <h4>My Personal Portfolio Project - HTML,CSS,JS,GSAP</h4>
                                         <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Personal</p>
@@ -95,7 +92,7 @@
                             </li> -->
                             <li class="item-a">
                                 <div class="box">
-                                    <img src="assets/img/img3.png" alt="" class="model">
+                                    <img src="assets/img/img3.webp" alt="" class="model">
                                     <div class="details">
                                         <h4>Developers Cafe - Social Networking Website - MERN Stack</h4>
                                         <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Personal</p>
@@ -164,18 +161,17 @@
         <!-- GSAP -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 
-        <!-- THREE JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"
-         integrity="sha256-3mBEX8I0uMLF7+AUjJeTCelosuorzYpqwBMBPDTyQqY=" crossorigin="anonymous"></script>
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.5/ScrollTrigger.min.js"></script>
 
          <!-- ICONOS -->
         <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
 
+        <script type="text/javascript" src="assets/js/JQuery3.3.1.js"></script>
+        <script type="text/javascript" src="assets/js/lightslider.js"></script>
+
         <!-- Barba Core -->
         
-        <script src="https://unpkg.com/@barba/core"></script>
+        <!-- <script src="https://unpkg.com/@barba/core"></script> -->
 
         <script>
             
@@ -193,31 +189,31 @@
         </script>
        
         <script>
-            gsap.registerPlugin(ScrollTrigger);
+            // gsap.registerPlugin(ScrollTrigger);
 
-            let revealContainers = document.querySelectorAll(".wrapper");
+            // let revealContainers = document.querySelectorAll(".wrapper");
 
-            revealContainers.forEach((container) => {
-            let image = container.querySelector("img");
-            let tl = gsap.timeline({
-                scrollTrigger: {
-                trigger: container,
-                toggleActions: "restart none none reset"
-                }
-            });
+            // revealContainers.forEach((container) => {
+            // let image = container.querySelector("img");
+            // let tl = gsap.timeline({
+            //     scrollTrigger: {
+            //     trigger: container,
+            //     toggleActions: "restart none none reset"
+            //     }
+            // });
 
-            tl.set(container, { autoAlpha: 1 });
-                tl.from(container, 1.5, {
-                    xPercent: -100,
-                    ease: Power2.out
-                });
-                tl.from(image, 1.5, {
-                    xPercent: 100,
-                    scale: 1.3,
-                    delay: -1.5,
-                    ease: Power2.out
-                });
-            });
+            // tl.set(container, { autoAlpha: 1 });
+            //     tl.from(container, 1.5, {
+            //         xPercent: -100,
+            //         ease: Power2.out
+            //     });
+            //     tl.from(image, 1.5, {
+            //         xPercent: 100,
+            //         scale: 1.3,
+            //         delay: -1.5,
+            //         ease: Power2.out
+            //     });
+            // });
             
 
             // JavaScript Document
