@@ -141,7 +141,7 @@
             gsap.from('.about__para', {opacity: 0, duration: 1, delay:2, y: 50})
     
         </script>
-        <script src="index.js"></script>
+        
         <script>
             /* Barba */
             function pageTransition() {
@@ -183,16 +183,15 @@
 
             // Your web app's Firebase configuration
             window.onload=function(){
-                
                 var firebaseConfig = {
-                    apiKey: process.env.apiKey,
-                    authDomain: process.env.authDomain,
-                    projectId: process.env.projectId,
-                    storageBucket: process.env.storageBucket,
-                    databaseURL: process.env.databaseURL,
-                    messagingSenderId: process.env.messagingSenderId,
-                    appId: process.env.appId,
-                    measurementId: process.env.measurementId
+                    apiKey: "AIzaSyCYdJw9K50KIrfcDQ2U_AvuC-L-DqLd-A4",
+                    authDomain: "portfoliocontactform-58ad5.firebaseapp.com",
+                    projectId: "portfoliocontactform-58ad5",
+                    storageBucket: "portfoliocontactform-58ad5.appspot.com",
+                    databaseURL: "https://portfoliocontactform-58ad5-default-rtdb.firebaseio.com/",
+                    messagingSenderId: "3700531160",
+                    appId: "1:3700531160:web:14de5865cd9d3ab3651cad",
+                    measurementId: "G-746D64VR32"
                 };
                 // Initialize Firebase
                 firebase.initializeApp(firebaseConfig);
