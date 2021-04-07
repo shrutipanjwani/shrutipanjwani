@@ -1,0 +1,15 @@
+{
+  "name": "shruti-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "serve": "./node_modules/.bin/http-server"
+  },
+  "author": "Shruti Panjwani",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
