@@ -25,10 +25,10 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/_shrutipanjwani" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="_shrutipanjwani" height="30" width="40" /></a>
+<a href="https://twitter.com/_shrutipanjwani" target="blank"><img align="center" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-4.png" alt="_shrutipanjwani" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/shrutipanjwani" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="shrutipanjwani" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/15499004" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="15499004" height="30" width="40" /></a>
-<a href="https://instagram.com/_shrutipanjwani" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="_shrutipanjwani" height="30" width="40" /></a>
+<a href="https://instagram.com/_shrutipanjwani" target="blank"><img align="center" src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-svg-vector-for-print.svg" alt="_shrutipanjwani" height="30" width="40" /></a>
 <a href="https://medium.com/@shrutipanjwani13" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@shrutipanjwani13" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/crocoding" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="crocoding" height="30" width="40" /></a>
 <a href="https://discord.gg/9Nh4EEhg" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" alt="9Nh4EEhg" height="30" width="40" /></a>
