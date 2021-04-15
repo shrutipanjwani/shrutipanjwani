@@ -45,12 +45,16 @@
 <br>
 <h2 align="center">Show some  ❤️  by starring some of the repositories!</h2>
 
-My Latest Blog Posts 🌱
+<div display="flex">
+  My Latest Blog Posts 🌱
 
-- <a href="https://medium.com/crocoding/month-to-master-c2d5ae75f5fa" target="_blank">Month to Master - #31DaysBootcamp</a>
+  - <a href="https://medium.com/crocoding/month-to-master-c2d5ae75f5fa" target="_blank">Month to Master - #31DaysBootcamp</a>
+  
+  <hr>
+  
+  My Latest YouTube Videos 🌱
 
-My Latest YouTube Videos 🌱
-
--  <a href="https://youtu.be/ZO6RGhYAhuc" target="_blank">CroCoding - Web Development Channel Trailer</a>
--  <a href="https://youtu.be/Rdnk7Z-GxGs" target="_blank">Roadmap to become a great frontend developer in 2021</a>
+  -  <a href="https://youtu.be/ZO6RGhYAhuc" target="_blank">CroCoding - Web Development Channel Trailer</a>
+  -  <a href="https://youtu.be/Rdnk7Z-GxGs" target="_blank">Roadmap to become a great frontend developer in 2021</a>
+</div>
 
