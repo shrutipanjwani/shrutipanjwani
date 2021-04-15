@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Shruti Panjwani</h1>
 <h3 align="center">A Passionate Hustler, Learner, Explorer, Frontend Designer & MERN Stack Developer from India</h3>
 
-<img src="https\:\/\/yt3\.ggpht\.com\/mGIdsk3E7ZzOSYXaPDF8V-_Mrdt0ixzCuVk3VQ3KNcMZ_SM_5FeKY7MARka6Cv0AB_3aXlDG7Q\=w2120-fcrop64\=1\,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj">
-
 - 🔭 I’m currently working on [Month to Master](https://github.com/Cro-Coding/month-to-master)
 
 - 🌱 I’m currently learning **PWAs,**
