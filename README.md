@@ -45,7 +45,7 @@
 <br>
 <h2 align="center">Show some  ❤️  by starring some of the repositories!</h2>
 
-<div display="flex">
+<div align="center">
   My Latest Blog Posts 🌱
 
   - <a href="https://medium.com/crocoding/month-to-master-c2d5ae75f5fa" target="_blank">Month to Master - #31DaysBootcamp</a>
