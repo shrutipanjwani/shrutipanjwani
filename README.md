@@ -17,7 +17,7 @@
 
 - 📄 Know about my experiences [https://shrutipanjwani.com/work](https://shrutipanjwani.com/work)
 
-- ⚡ Fact **I love frontend!**
+- ⚡ **I love frontend!**
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
