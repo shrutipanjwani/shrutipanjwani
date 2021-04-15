@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on [Month to Master](https://github.com/Cro-Coding/month-to-master)
 
-- 🌱 I’m currently learning **PWAs,**
+- 🌱 I’m currently learning **PWAs, AR/VR with React**
 
 - 👨‍💻 All of my projects are available at [https://shrutipanjwani.com](https://shrutipanjwani.com)
 
