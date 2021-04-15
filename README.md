@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Shruti Panjwani</h1>
-<h3 align="center">A Passionate Hustler, Learner, Explorer, Frontend Designer & MERN Stack Developer from India</h3>
+<h3 align="center">A Hustler, Learner, Explorer, Frontend Designer & MERN Stack Developer from India</h3>
+<h4 align="center">Building Dots to Connect Later!</h4>
 
 ![quoracover](https://user-images.githubusercontent.com/67150258/114865366-c3b43f80-9e0f-11eb-841e-ba4d9c4796d2.png)
 
