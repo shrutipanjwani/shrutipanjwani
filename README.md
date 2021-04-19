@@ -2,7 +2,7 @@
 <h3 align="center">A Hustler, Learner, Explorer, Frontend Designer & MERN Stack Developer from India</h3>
 <h3 align="center">Building Dots to Connect Later!</h3>
 
-![quoracover](https://user-images.githubusercontent.com/67150258/114865366-c3b43f80-9e0f-11eb-841e-ba4d9c4796d2.png)
+![Channel Art](https://user-images.githubusercontent.com/67150258/115206784-9372e680-a118-11eb-959c-618433be13a9.png)
 
 - 🔭 I’m currently working on [Month to Master](https://github.com/Cro-Coding/month-to-master)
 
