@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
 
 /*Colors*/
 :root {
@@ -221,6 +221,7 @@ ul .transition li {
 
 .heading {
 	color: black;
+	font-weight: 700;
 	letter-spacing: 1px;
 	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
 	-webkit-text-stroke-width: 1px;
@@ -230,7 +231,7 @@ ul .transition li {
 .home__title {
 	position: absolute;
 	top: 2%;
-	left: 5%;
+	left: 15%;
 	font-size: var(--big-font-size);
 	font-weight: 900;
 	z-index: var(--z-fixed);
@@ -821,7 +822,7 @@ footer {
 		margin-top: 5rem;
 	}
 	.footer .email {
-		font-size: 1.25rem;
+		font-size: 1.2rem;
 		-webkit-text-stroke-width: 0.5px;
 		-webkit-text-fill-color: #ffffff;
 	}
@@ -874,155 +875,54 @@ footer {
 
 /* Skills */
 
+.skills {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
 .skills li {
-	margin: 20px 0;
+	margin: 10px;
 	list-style: none;
-	width: 50vw;
+	width: 250px;
+	height: 200px;
+	background: #fff;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.skills li:hover {
+	transform: scale(1.05);
+	transition: all 500ms ease-out;
+}
+
+.skills li svg {
+	position: relative;
+	top: 30px;
+	left: 35%;
+}
+
+.skills li img {
+	position: relative;
+	top: 20px;
+	left: 35%;
+	margin-bottom: -1rem;
 }
 
 .skills li h3 {
 	font-size: 20px;
+	color: #333;
+	max-width: 200px;
+	margin: auto;
+	text-align: center;
 }
 
-.skills li .bar {
-	width: 100%;
-	background: var(--text-color);
-	display: block;
-	height: 8px;
-	border: 1px solid gray;
-	border-radius: 3px;
-	overflow: hidden;
-	box-shadow: 0 0 10px #333;
-}
-
-.skills li .bar span {
-	height: 100%;
-	float: left;
-	background: #fff;
-}
-
-.html {
-	width: 95%;
-	animation: html 2s;
-}
-
-.css {
-	width: 90%;
-	animation: css 2s;
-}
-
-.js {
-	width: 80%;
-	animation: js 2s;
-}
-
-.jq {
-	width: 90%;
-	animation: jq 2s;
-}
-
-/* .mongo{
-  width: 80%;
-  animation: mongo 2s;
-}
-
-.express{
-  width: 80%;
-  animation: express 2s;
-}
-
-.node{
-  width: 100%;
-  animation: node 2s;
-} */
-
-.react {
-	width: 90%;
-	animation: react 2s;
-}
-
-.mern {
-	width: 90%;
-	animation: mern 2s;
-}
-
-@keyframes html {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 95%;
+@media (max-width: 700px) {
+	.skills {
+		display: grid;
+		grid-template-columns: auto;
 	}
 }
 
-@keyframes css {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 90%;
-	}
-}
-
-@keyframes js {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 80%;
-	}
-}
-
-@keyframes jq {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 90%;
-	}
-}
-
-/* @keyframes mongo{
-  0%{
-    width: 0%;
-  } 100% {
-    width: 80%;
-  }
-}
-
-@keyframes express{
-  0%{
-    width: 0%;
-  } 100% {
-    width: 80%;
-  }
-}
-
-@keyframes node{
-  0%{
-    width: 0%;
-  } 100% {
-    width: 100%;
-  }
-} */
-
-@keyframes react {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 90%;
-	}
-}
-
-@keyframes mern {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 90%;
-	}
-}
+/* Skills End */
 
 .alert {
 	text-align: center;
@@ -1134,5 +1034,47 @@ footer {
 	}
 	.center form button {
 		margin-top: 1rem;
+	}
+}
+
+/* Bootcamp info */
+.social {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.social li i {
+	font-size: 30px;
+}
+
+.social li a {
+	color: black;
+}
+
+.list-type li {
+	list-style: initial;
+}
+
+.list-type li a {
+	text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+	.line {
+		line-height: 50px !important;
+	}
+	.social {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+	.social li {
+		margin-bottom: 1rem;
+	}
+}
+
+@media (max-height: 640px) {
+	.line {
+		line-height: 80px !important;
 	}
 }
