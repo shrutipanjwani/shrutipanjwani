@@ -1,111 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="icon" href="assets/img/logo.png" />
-        <title>Shruti Panjwani</title>
-        <style>
-            @media (max-width: 700px){
-                .l-main{
-                    margin-bottom: 60rem;
-                }
-            }
-            @media (max-height: 670px) {
-                .l-main {
-                    margin-bottom: 60rem;
-                    height: 100vh;
-                }
-                .home__button{
-                    margin-bottom: -60rem;
-                }
-            }
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Shruti Panjwani, A developer and a Freelancer"
+		/>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="icon" href="assets/img/logo.png" />
+		<title>Shruti Panjwani</title>
+		<style>
+			@media (max-width: 700px) {
+				.l-main {
+					margin-bottom: 60rem;
+				}
+			}
+			@media (max-height: 670px) {
+				.l-main {
+					margin-bottom: 60rem;
+					height: 100vh;
+				}
+				.home__button {
+					margin-bottom: -60rem;
+				}
+			}
 
-            @media (max-height: 550px) {
-                .l-main {
-                    margin-bottom: 70rem;
-                    height: 100vh;
-                }
-                .home__button{
-                    margin-bottom: -70rem;
-                }
-            }
-        </style>
-    </head>
-    <body data-barba="wrapper">
+			@media (max-height: 550px) {
+				.l-main {
+					margin-bottom: 70rem;
+					height: 100vh;
+				}
+				.home__button {
+					margin-bottom: -70rem;
+				}
+			}
+		</style>
+	</head>
+	<body data-barba="wrapper">
+		<ul class="transition">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
 
-        <ul class="transition">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+		<header class="l-header">
+			<nav class="nav bd-grid">
+				<div>
+					<a href="index.html" class="nav__logo">shrutipanjwani.</a>
+				</div>
 
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="index.html" class="nav__logo">shrutipanjwani.</a>
-                </div>
+				<div class="nav__menu" id="nav-menu">
+					<div class="nav__close">
+						<ion-icon
+							name="close-outline"
+							class="nav__close-icon"
+							id="nav-close"
+						></ion-icon>
+					</div>
+					<ul class="nav__list">
+						<li class="nav__item"
+							><a href="index.html" class="nav__link">Home</a></li
+						>
+						<li class="nav__item"
+							><a href="about.html" class="nav__link">About</a></li
+						>
+						<li class="nav__item"
+							><a href="skills.html" class="nav__link">Skills</a></li
+						>
+						<li class="nav__item"
+							><a href="work.html" class="nav__link">Work</a></li
+						>
+						<li class="nav__item"
+							><a href="month-to-master.html" class="nav__link"
+								>Join my Bootcamp</a
+							></li
+						>
+					</ul>
+				</div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <div class="nav__close">
-                        <ion-icon name="close-outline" class="nav__close-icon" id="nav-close"></ion-icon>
-                    </div>
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="work.html" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="month-to-master.html" class="nav__link">Join my Bootcamp</a></li>
-                    </ul>
-                </div>
+				<div class="nav__toggle" id="nav-toggle">
+					<ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+				</div>
+			</nav>
+		</header>
+		<main
+			class="l-main bd-grid"
+			data-barba="container"
+			data-barba-namepsace="home"
+		>
+			<div class="home">
+				<div class="about__title">
+					<h2>
+						<span class="heading" id="create">Skills &amp;</span>
+					</h2>
+					<h2>
+						<span id="create"> Experience</span>
+					</h2>
+				</div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-                </div>
-            </nav>
-        </header>
-        <main class="l-main bd-grid" data-barba="container" data-barba-namepsace="home">
-            <div class="home">
-
-                <div class="about__title">
-                    <h2>
-                        <span class="heading" id="create">Skills &amp;</span>
-                    </h2>
-                    <h2>
-                        <span id="create"> Experience</span>
-                    </h2>
-                </div>
-
-                <div class="about__para">
-                    <div class="skills">
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70"
-                            viewBox="0 0 172 172" style=" fill:#000000;">
-                            <defs>
-                                <linearGradient x1="86" y1="34.69025" x2="86" y2="137.8365" gradientUnits="userSpaceOnUse" id="color-1_WMvhDPZBJ9X2_gr1">
-                                    <stop offset="0" stop-color="#8ab4ff"></stop>
-                                    <stop offset="1" stop-color="#e492ff"></stop>
-                                </linearGradient>
-                                <linearGradient x1="86.00269" y1="-8.64569" x2="86.00269" y2="167.32913" gradientUnits="userSpaceOnUse" id="color-2_WMvhDPZBJ9X2_gr2">
-                                    <stop offset="0" stop-color="#1a6dff"></stop>
-                                    <stop offset="1" stop-color="#c822ff"></stop>
-                                </linearGradient>
-                            </defs>
-                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
-                             stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" 
-                             font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none">
-                             </path>
-                             <g>
-                                <path d="M86,137.0625c-28.19994,0 -51.0625,-22.86256 -51.0625,-51.0625c0,-28.19994 22.86256,-51.0625 51.0625,
+				<div class="about__para">
+					<div class="skills">
+						<li>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								x="0px"
+								y="0px"
+								width="70"
+								height="70"
+								viewBox="0 0 172 172"
+								style="fill: #000000"
+							>
+								<defs>
+									<linearGradient
+										x1="86"
+										y1="34.69025"
+										x2="86"
+										y2="137.8365"
+										gradientUnits="userSpaceOnUse"
+										id="color-1_WMvhDPZBJ9X2_gr1"
+									>
+										<stop offset="0" stop-color="#8ab4ff"></stop>
+										<stop offset="1" stop-color="#e492ff"></stop>
+									</linearGradient>
+									<linearGradient
+										x1="86.00269"
+										y1="-8.64569"
+										x2="86.00269"
+										y2="167.32913"
+										gradientUnits="userSpaceOnUse"
+										id="color-2_WMvhDPZBJ9X2_gr2"
+									>
+										<stop offset="0" stop-color="#1a6dff"></stop>
+										<stop offset="1" stop-color="#c822ff"></stop>
+									</linearGradient>
+								</defs>
+								<g
+									fill="none"
+									fill-rule="nonzero"
+									stroke="none"
+									stroke-width="1"
+									stroke-linecap="butt"
+									stroke-linejoin="miter"
+									stroke-miterlimit="10"
+									stroke-dasharray=""
+									stroke-dashoffset="0"
+									font-family="none"
+									font-weight="none"
+									font-size="none"
+									text-anchor="none"
+									style="mix-blend-mode: normal"
+								>
+									<path d="M0,172v-172h172v172z" fill="none"></path>
+									<g>
+										<path
+											d="M86,137.0625c-28.19994,0 -51.0625,-22.86256 -51.0625,-51.0625c0,-28.19994 22.86256,-51.0625 51.0625,
                                 -51.0625c28.19994,0 51.0625,22.86256 51.0625,51.0625c-0.03225,28.18919 -22.87331,51.03025 -51.0625,51.0625zM86,
                                 40.3125c-25.23294,0 -45.6875,20.45456 -45.6875,45.6875c0,25.23294 20.45456,45.6875 45.6875,45.6875c25.23294,
-                                0 45.6875,-20.45456 45.6875,-45.6875c-0.02956,-25.2195 -20.468,-45.65794 -45.6875,-45.6875z" 
-                                fill="url(#color-1_WMvhDPZBJ9X2_gr1)">
-                                </path>
-                                <path d="M166.48525,81.28613c-0.29025,-4.85631 -3.92106,-8.858 -8.729,-9.61856c-2.73319,-0.46225 -5.99044,
+                                0 45.6875,-20.45456 45.6875,-45.6875c-0.02956,-25.2195 -20.468,-45.65794 -45.6875,-45.6875z"
+											fill="url(#color-1_WMvhDPZBJ9X2_gr1)"
+										></path>
+										<path
+											d="M166.48525,81.28613c-0.29025,-4.85631 -3.92106,-8.858 -8.729,-9.61856c-2.73319,-0.46225 -5.99044,
                                 -0.99169 -8.67794,-1.42706l-0.62081,-0.09675c-1.677,-0.26337 -3.05838,-1.45931 -3.56094,-3.07988c-1.0105,
                                 -3.21425 -2.29512,-6.33444 -3.83506,-9.331c-0.79012,-1.50231 -0.65306,-3.32175 0.35206,-4.68969c1.6125,
                                 -2.3005 3.72756,-5.21106 5.46906,-7.62175c2.87831,-3.96137 2.60688,-9.3955 -0.65037,-13.0505c-2.09356,
@@ -173,159 +231,230 @@
                                 2.924 1.71731,3.93988l16.69206,15.49881l3.65769,-3.93988l-16.69206,-15.49881l16.69206,-15.49881zM105.21563,
                                 66.56131l-3.65769,3.93988l16.69206,15.49881l-16.69206,15.49881l3.65769,3.93988l16.69206,-15.49881c1.09381,
                                 -1.01587 1.71731,-2.451 1.71731,-3.93988c0,-1.48888 -0.6235,-2.924 -1.71731,-3.93988zM74.06481,113.31575l5.06056,
-                                1.80869l20.15625,-56.4375l-5.06056,-1.80869z" fill="url(#color-2_WMvhDPZBJ9X2_gr2)">
-                            </path></g></g></svg>
-                            <br>
-                            <br>
-                            <h3>Full Stack Development</h3>
-                        </li>
-                        <li>
-                            <img src="https://img.icons8.com/nolan/64/web.png" width="80px"/>
-                            <br>
-                            <br>
-                            <h3>Frontend Development</h3>
-                        </li>
-                        <li>
-                            <img src="https://img.icons8.com/nolan/64/laptop.png" width="85px"/>
-                            <br>
-                            <br>
-                            <h3>UI/UX Designing</h3>
-                        </li>
-                        <li>
-                            <img src="https://img.icons8.com/nolan/64/stack.png" width="80px"/>
-                            <br>
-                            <br>
-                            <h3>MERN Stack Development</h3>
-                        </li>
-                        <li>
-                            <img src="https://img.icons8.com/nolan/64/web-design.png" width="80px"/>
-                            <br>
-                            <br>
-                            <h3>Carousels Posts Designing</h3>
-                        </li>
-                        <li>
-                            <img src="https://img.icons8.com/nolan/64/design.png" width="80px"/>
-                            <br>
-                            <br>
-                            <h3>Animations & Motion Design</h3>
-                        </li>
-                    </div>
-                </div>
+                                1.80869l20.15625,-56.4375l-5.06056,-1.80869z"
+											fill="url(#color-2_WMvhDPZBJ9X2_gr2)"
+										></path>
+									</g>
+								</g>
+							</svg>
+							<br />
+							<br />
+							<h3>Full Stack Development</h3>
+						</li>
+						<li>
+							<img src="https://img.icons8.com/nolan/64/web.png" width="80px" />
+							<br />
+							<br />
+							<h3>Frontend Development</h3>
+						</li>
+						<li>
+							<img
+								src="https://img.icons8.com/nolan/64/laptop.png"
+								width="85px"
+							/>
+							<br />
+							<br />
+							<h3>UI/UX Designing</h3>
+						</li>
+						<li>
+							<img
+								src="https://img.icons8.com/nolan/64/stack.png"
+								width="80px"
+							/>
+							<br />
+							<br />
+							<h3>MERN Stack Development</h3>
+						</li>
+						<li>
+							<img
+								src="https://img.icons8.com/nolan/64/web-design.png"
+								width="80px"
+							/>
+							<br />
+							<br />
+							<h3>Carousels Posts Designing</h3>
+						</li>
+						<li>
+							<img
+								src="https://img.icons8.com/nolan/64/design.png"
+								width="80px"
+							/>
+							<br />
+							<br />
+							<h3>Animations & Motion Design</h3>
+						</li>
+					</div>
+				</div>
 
-                <div class="home__social">
-                    <a href="https://twitter.com/_shrutipanjwani" target="_blank" class="home__social-link">twitter</a>
-                    <a href="https://instagram.com/_shrutipanjwani" target="_blank" class="home__social-link">instagram</a>
-                    <a href="https://www.linkedin.com/in/shruti-panjwani-348306193" target="_blank" class="home__social-link">linkedIn</a>
-                    <a href="https://github.com/shrutipanjwani/" target="_blank" class="home__social-link">github</a>
-                </div>
+				<div class="home__social">
+					<a
+						href="https://twitter.com/_shrutipanjwani"
+						target="_blank"
+						class="home__social-link"
+						>twitter</a
+					>
+					<a
+						href="https://instagram.com/_shrutipanjwani"
+						target="_blank"
+						class="home__social-link"
+						>instagram</a
+					>
+					<a
+						href="https://www.linkedin.com/in/shruti-panjwani-348306193"
+						target="_blank"
+						class="home__social-link"
+						>linkedIn</a
+					>
+					<a
+						href="https://github.com/shrutipanjwani/"
+						target="_blank"
+						class="home__social-link"
+						>github</a
+					>
+				</div>
 
-                <a href="contactme.html" class="home__button">Lets Connect <ion-icon name="arrow-forward-outline" class="home__button-icon"></ion-icon></a>
-            </div>
-        </main>
-        <!-- MAIN -->
+				<a href="contactme.html" class="home__button"
+					>Lets Connect
+					<ion-icon
+						name="arrow-forward-outline"
+						class="home__button-icon"
+					></ion-icon
+				></a>
+			</div>
+		</main>
+		<!-- MAIN -->
 
-        <footer>
-            <div class="footer">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <div class="reveal-holder">
-                    <div class="reveal-block right" data-aos="reveal-right"></div>
-                    <h2 class="reveal-text">Let's talk about your project</h2>
-                </div>
-                <br>
-                <div class="reveal-holder">
-                    <div class="reveal-block right" data-aos="reveal-right"></div>
-                    <a class="email" href="mailto:shrutipanjwani13@gmail.com">shrutipanjwani13@gmail.com</a>
-                </div>
+		<footer>
+			<div class="footer">
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<div class="reveal-holder">
+					<div class="reveal-block right" data-aos="reveal-right"></div>
+					<h2 class="reveal-text">Let's talk about your project</h2>
+				</div>
+				<br />
+				<div class="reveal-holder">
+					<div class="reveal-block right" data-aos="reveal-right"></div>
+					<a class="email" href="mailto:shrutipanjwani13@gmail.com"
+						>shrutipanjwani13@gmail.com</a
+					>
+				</div>
 
-                <div class="reveal-holder">
-                    <div class="reveal-block right" data-aos="reveal-right"></div>
-                    <div class="copy">&copy; 2021, Designed and Developed by 
-                    <a href="http://shrutipanjwani.com/">shrutipanjwani</a></div>
-                </div>
-            </div>
-        </footer>
+				<div class="reveal-holder">
+					<div class="reveal-block right" data-aos="reveal-right"></div>
+					<div class="copy"
+						>&copy; 2021, Designed and Developed by
+						<a href="http://shrutipanjwani.com/">shrutipanjwani</a></div
+					>
+				</div>
+			</div>
+		</footer>
 
-        <script src="assets/js/main.js"></script>
+		<script src="assets/js/main.js"></script>
 
-        <!-- GSAP -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-        
-         <!-- ICONOS -->
-        <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+		<!-- GSAP -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 
-        <!-- Barba Core -->
-        
-        <script src="https://unpkg.com/@barba/core"></script>
+		<!-- ICONOS -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
+		></script>
 
-        <!--AOS-->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<!-- Barba Core -->
 
-        <script>
+		<script src="https://unpkg.com/@barba/core"></script>
 
-            gsap.to("#create", {y: '0%', duration:0.7, stagger:0.2});
-            gsap.from('.nav', {opacity: 0, duration: 1, delay:1, y: -30})
-            gsap.from('.home__social', {opacity: 0, duration: 1, delay:1.5, y: 50})
-            gsap.from('.home__button', {opacity: 0, duration: 1, delay:1.8, y: 50})
-            gsap.from('.about__para', {opacity: 0, duration: 1, delay:2, y: 50})
-    
-        </script>
-        <script>
-            /* Barba */
-            function pageTransition() {
-                var tl = gsap.timeline();
-                
-                tl.to('ul .transition li', {duration: .5, scaleY: 1, transformOrigin: "bottom left", stagger: .2})
-                tl.to('ul .transition li', {duration: .5, scaleY: 0, transformOrigin: "bottom left", stagger: .1, delay: .1})
-            }
+		<!--AOS-->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-            function contentAnimation() {
+		<script>
+			gsap.to("#create", { y: "0%", duration: 0.7, stagger: 0.2 });
+			gsap.from(".nav", { opacity: 0, duration: 1, delay: 1, y: -30 });
+			gsap.from(".home__social", {
+				opacity: 0,
+				duration: 1,
+				delay: 1.5,
+				y: 50,
+			});
+			gsap.from(".home__button", {
+				opacity: 0,
+				duration: 1,
+				delay: 1.8,
+				y: 50,
+			});
+			gsap.from(".about__para", { opacity: 0, duration: 1, delay: 2, y: 50 });
+		</script>
+		<script>
+			/* Barba */
+			function pageTransition() {
+				var tl = gsap.timeline();
 
-                var tl = gsap.timeline();
-                tl.from('.home__img', {duration: 1.5, translateY: 50, opacity: 0})
-                tl.to('img', {clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)"}, "-=1.1")
+				tl.to("ul .transition li", {
+					duration: 0.5,
+					scaleY: 1,
+					transformOrigin: "bottom left",
+					stagger: 0.2,
+				});
+				tl.to("ul .transition li", {
+					duration: 0.5,
+					scaleY: 0,
+					transformOrigin: "bottom left",
+					stagger: 0.1,
+					delay: 0.1,
+				});
+			}
 
-            }
+			function contentAnimation() {
+				var tl = gsap.timeline();
+				tl.from(".home__img", { duration: 1.5, translateY: 50, opacity: 0 });
+				tl.to(
+					"img",
+					{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)" },
+					"-=1.1"
+				);
+			}
 
-            function delay(n) {
-                n = n || 2000;
-                return new Promise(done => {
-                    setTimeout(() => {
-                        done();
-                    }, n);
-                });
-            }
+			function delay(n) {
+				n = n || 2000;
+				return new Promise((done) => {
+					setTimeout(() => {
+						done();
+					}, n);
+				});
+			}
 
-            barba.init({
-                sync: true,
+			barba.init({
+				sync: true,
 
-                transitions: [{
-                    async leave(data) {
-                        const done = this.async();
-                        pageTransition();
-                        await delay(1500);
-                        done();
-                    },
-                    async enter(data) {
-                        contentAnimation();
-                    },
-                    async once(data) {
-                        contentAnimation();
-                    }
-                }]
-            });
+				transitions: [
+					{
+						async leave(data) {
+							const done = this.async();
+							pageTransition();
+							await delay(1500);
+							done();
+						},
+						async enter(data) {
+							contentAnimation();
+						},
+						async once(data) {
+							contentAnimation();
+						},
+					},
+				],
+			});
 
-            AOS.init({
-                duration: 500,
-                easing: 'ease-out-quart',
-                once: true
-            });
-        </script>
-        
-    </body>
+			AOS.init({
+				duration: 500,
+				easing: "ease-out-quart",
+				once: true,
+			});
+		</script>
+	</body>
 </html>
