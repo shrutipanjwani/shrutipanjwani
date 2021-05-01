@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Shruti Panjwani, A developer and a Freelancer">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="icon" href="assets/img/logo.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <title>Shruti Panjwani</title>
+        <style>
+            .l-main{
+                margin-bottom: 730rem;
+            }
+            .about__para p,.about__para ul li{
+                font-size: 25px;
+                font-weight: 400;
+            }
+            .title{
+                font-weight: 600 !important;
+            }
+            small{
+                font-size: 18px;
+                font-weight: 100 !important;
+            }
+
+            @media (max-width: 640px){
+                .about__para{
+                    margin-top: 3rem;
+                }
+                .about__para p,.about__para ul li{
+                    font-size: 18px;
+                }
+                .l-main{
+                    margin-bottom: 440rem;
+                }
+                iframe{
+                    width: 400px;
+                    height: 200px;
+                }
+            }
+
+            @media (max-width: 450px){
+                .l-main{
+                    margin-bottom: 450rem;
+                }
+            }
+
+            @media (max-width: 400px){
+                .l-main{
+                    margin-bottom: 490rem;
+                }
+                iframe{
+                    width: 250px;
+                    height: 200px;
+                }
+            }
+
+            @media (max-width: 375px){
+                .l-main{
+                    margin-bottom: 380rem;
+                }
+            }
+
+            @media (max-height: 670px) {
+                .l-main {
+                    margin-bottom: 410rem;
+                }
+            }
+
+
+            @media (max-height: 550px) {
+                .l-main {
+                    margin-bottom: 420rem;
+                }
+            }
+        </style>
+    </head>
+    <body data-barba="wrapper">
+
+        <!-- <ul class="transition">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul> -->
+
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html" class="nav__logo">shrutipanjwani.</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close">
+                        <ion-icon name="close-outline" class="nav__close-icon" id="nav-close"></ion-icon>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="work.html" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="month-to-master.html" class="nav__link">Join my Bootcamp</a></li>
+                        <li class="nav__item"
+							><a href="learnwebdev.html" class="nav__link"
+								>Learn Web Dev</a
+							></li
+						>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main bd-grid" data-barba="container" data-barba-namepsace="home">
+            <div class="home">
+                
+                <div class="about__title">
+                    <h2>
+                        <span class="heading" id="create">HTML as</span>
+                    </h2>
+                    <h2>
+                        <span id="create">the Foundation</span>
+                    </h2>
+                </div>
+
+                <div class="about__para">
+                    <div class="center-launch">
+                        
+                        <div class="card-container-two contain-two">
+                            <div>
+                                    <br>
+                                <div class="button-container">
+                                    <button class="button" onclick="openEvent('overview')">Overview</button>
+                                    <button class="button" onclick="openEvent('live')">Live</button>
+                                    <button class="button" onclick="openEvent('groups')">Groups</button>
+                                </div>
+                                <br>
+                                <div class="flexs" id="overview">
+                                    <h4>Summary</h4>
+                                    <ul style="list-style: initial;">
+                                        <li>HTML as the Foundation</li>
+                                        <li>Using elements and attributes in HTML</li>
+                                        <li>Forms and Tables in HTML</li>
+                                        <li>Structuring HTML Page</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-container-two">      
+                                    <div class="flexs" id="live" style="display:none;">
+                                        <h4>Discussion with peer groups</h4>
+                                        <p>Having questions and doubts? Join the QnAs sessions</p>
+                                        <a href="https://discord.com/invite/QNCt9TsJvN" target="_blank"><button class="btn">Join the Community</button></a>
+                                    </div>
+                                </div>
+
+                                <div class="card-container-two">      
+                                    <div class="flexs" id="groups" style="display:none;">
+                                        <div class="d-flex">
+                                            <div class="card-two">
+                                                <div class="card-content">
+                                                    <br>
+                                                    <img src="./assets/img/crocoding.png" alt="" width="100px">
+                                                    <p>CroCoding Telegram Community</p>
+                                                    <a href="https://t.me/joinchat/F2Tk7IDBg-swNDg1" target="_blank"> <button>View Group</button></a>
+                                                </div>
+                                            </div>
+                                            <div class="card-two">
+                                                <div class="card-content">
+                                                    <br>
+                                                    <img src="./assets/img/crocoding.png" alt="" width="100px">
+                                                    <p>CroCoding LinkedIn Community</p>
+                                                    <a href="https://www.linkedin.com/company/crocoding" target="_blank"> <button>View Group</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="video-content-container">
+                            <div class="video-content">
+                                <br>
+                                <div class="video-card">
+                                    <p>2. HTML is like a burger! The Foundation on which web is built</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/9eVkKeHDZaI" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>3. Different Types of Texts in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/nn3MDXlvpQc" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>4. Lists in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/7UAsGXubAeA" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>5. Quotes in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/c6NHuNSHzQw" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>6. Empty tags, code & pre in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/-9r9aUk1grg" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>7. Debugging HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/VNXHRzubMa8" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>8. HTML Attributes</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/oS5DGoPkkZY" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>9. Date & Time in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/FRRlsvsNCK8" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>10. Weird Characters in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/guCdpQrAhWg" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>11. Links & Navigation in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/GWV1D1y84ms" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>12. Images & Responsiveness in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/RG89v41DmXg" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>13. Image Mapping in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/rJPQO1BW7sw" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>14. Audio & Video in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/kMt980LNgPw" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>15. Figures & Captions in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/QfwjeLRltH4" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>16. Embedding Other Media through iframes in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/vTtnIrLwlYM" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>17. Generic Elements - div & span in HTML</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/Yeev5nqrqIk" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>18. HTML Forms</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/K83W2v1j1oE" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>19. HTML Tables</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/M7TKIr1MZ1g" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>20. HTML5 Canvas</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/ufFTNcRcCoY" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                                <div class="video-card">
+                                    <p>21. The HTML Page and Structuring the Content in the Document</p>
+                                    <iframe width="780" height="450" src="https://www.youtube.com/embed/CC2YqqtOjfI" title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://twitter.com/_shrutipanjwani" target="_blank" class="home__social-link">twitter</a>
+                    <a href="https://instagram.com/_shrutipanjwani" target="_blank" class="home__social-link">instagram</a>
+                    <a href="https://www.linkedin.com/in/shruti-panjwani-348306193" target="_blank" class="home__social-link">linkedIn</a>
+                    <a href="https://github.com/shrutipanjwani/" target="_blank" class="home__social-link">github</a>
+                </div>
+
+                <!-- <a href="contactme.html" class="home__button">Lets Connect <ion-icon name="arrow-forward-outline" class="home__button-icon"></ion-icon></a> -->
+            </div>
+        </main>
+        <!-- MAIN -->
+        <footer>
+            <div class="footer">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="reveal-holder">
+                    <div class="reveal-block right" data-aos="reveal-right"></div>
+                    <h2 class="reveal-text">For any Queries</h2>
+                </div>
+                <br>
+                <div class="reveal-holder">
+                    <div class="reveal-block right" data-aos="reveal-right"></div>
+                    <a class="email" href="mailto:design.develop13@gmail.com">design.develop13@gmail.com</a>
+                    <br>
+                    <p>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCrpf13_a3qKxFBs-IaAlRkQ" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/_shrutipanjwani/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/_shrutipanjwani" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/crocoding" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/QNCt9TsJvN" target="_blank"><i class="fab fa-discord"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://medium.com/crocoding/month-to-master/home" target="_blank"><i class="fab fa-medium"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/cro-coding" target="_blank"><i class="fab fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="reveal-holder">
+                    <div class="reveal-block right" data-aos="reveal-right"></div>
+                    <div class="copy">&copy; 2021, Designed and Developed by 
+                    <a href="http://shrutipanjwani.com/">shrutipanjwani</a></div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="assets/js/main.js"></script>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+        
+         <!-- ICONOS -->
+        <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+
+        <!-- Barba Core -->
+        
+        <script src="https://unpkg.com/@barba/core"></script>
+
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script>
+
+            gsap.to("#create", {y: '0%', duration:0.7, stagger:0.2});
+            gsap.from('.nav', {opacity: 0, duration: 1, delay:1, y: -30})
+            gsap.from('.home__social', {opacity: 0, duration: 1, delay:1.5, y: 50})
+            gsap.from('.home__button', {opacity: 0, duration: 1, delay:1.8, y: 50})
+            gsap.from('.about__para', {opacity: 0, duration: 1, delay:2, y: 50})
+    
+        </script>
+        <script>
+            /* Barba */
+            function pageTransition() {
+                var tl = gsap.timeline();
+                
+                tl.to('ul .transition li', {duration: .5, scaleY: 1, transformOrigin: "bottom left", stagger: .2})
+                tl.to('ul .transition li', {duration: .5, scaleY: 0, transformOrigin: "bottom left", stagger: .1, delay: .1})
+            }
+
+            function delay(n) {
+                n = n || 2000;
+                return new Promise(done => {
+                    setTimeout(() => {
+                        done();
+                    }, n);
+                });
+            }
+
+            barba.init({
+                sync: true,
+
+                transitions: [{
+                    async leave(data) {
+                        const done = this.async();
+                        pageTransition();
+                        await delay(1500);
+                        done();
+                    }
+                }]
+            });
+
+            AOS.init({
+                duration: 500,
+                easing: 'ease-out-quart',
+                once: true
+            });
+
+            function openEvent(event) {
+                var i;
+                var x = document.getElementsByClassName("flexs");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                document.getElementById(event).style.display = "block";  
+            }
+
+        </script>
+    </body>
+</html>

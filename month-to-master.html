@@ -10,7 +10,7 @@
         <title>Shruti Panjwani</title>
         <style>
             .l-main{
-                margin-bottom: 360rem;
+                margin-bottom: 370rem;
             }
             .about__para p,.about__para ul li{
                 font-size: 25px;
@@ -25,7 +25,25 @@
                     font-size: 18px;
                 }
                 .l-main{
-                    margin-bottom: 410rem;
+                    margin-bottom: 390rem;
+                }
+            }
+
+            @media (max-width: 420px){
+                .l-main{
+                    margin-bottom: 410rem !important;
+                }
+            }
+
+            @media (max-width: 400px){
+                .l-main{
+                    margin-bottom: 430rem !important;
+                }
+            }
+
+            @media (max-width: 375px){
+                .l-main{
+                    margin-bottom: 460rem !important;
                 }
             }
 
@@ -37,13 +55,13 @@
 
             @media (max-height: 640px) {
                 .l-main {
-                    margin-bottom: 430rem;
+                    margin-bottom: 460rem !important;
                 }
             }
 
             @media (max-height: 550px) {
                 .l-main {
-                    margin-bottom: 440rem;
+                    margin-bottom: 470rem !important;
                 }
             }
         </style>
@@ -74,6 +92,11 @@
                         <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="work.html" class="nav__link">Work</a></li>
                         <li class="nav__item"><a href="month-to-master.html" class="nav__link">Join my Bootcamp</a></li>
+                        <li class="nav__item"
+							><a href="learnwebdev.html" class="nav__link"
+								>Learn Web Dev</a
+							></li
+						>
                     </ul>
                 </div>
 
@@ -98,30 +121,6 @@
                     <div class="center-launch">
                         <p class="line">Month to Master</p>   
                         <br> 
-                        <div class="center-demo">
-                            <span>WE ARE LAUNCHING IN</span>
-                        </div>
-                        <br>
-                        <div id="demo"></div>
-                        <div class="time-flex">
-                            <div class="time-flex-inner">
-                                <div id="days"></div>
-                                Days
-                            </div>
-                            <div class="time-flex-inner">
-                                <div id="hours"></div>
-                                Hours
-                            </div>
-                            <div class="time-flex-inner">
-                                <div id="minutes"></div>
-                                Minutes
-                            </div>
-                            <div class="time-flex-inner">
-                                <div id="seconds"></div>
-                                Seconds
-                            </div>
-                        </div> 
-                        <br>
                         <div class="center">
                             <div class="alert">Your email has been submitted successfully</div>
                             <small>Subscribe the newsletter to get daily updates</small>
@@ -391,6 +390,14 @@
                                 <li>I will upload the playlist of that day and topic we're learning about in <a href="https://www.youtube.com/channel/UCrpf13_a3qKxFBs-IaAlRkQ" 
                                     style="text-decoration: underline;" target="_blank">CroCoding YouTube Channel.</a> Make sure you subscribe the channel so that
                                     you get notifications daily.
+                                    Videos on YouTube, Blogs on Medium & Quora, Carousels on LinkedIn & Instagram, Resources on Tweets in Twitter and Daily updates and 
+                                    resources in the email to the people who have registered, A Dedicated Course on Udemy, Github for source code and Discord for 
+                                    community discussion.
+                                    <br>
+                                    In discord we'll be having live questions session at 10pm on Monday, Tuesday & Wednesday.
+                                    So do join the community.For now videos will be recorded but we'll clear doubts in discord sessions. 
+                                    And you will receive resources daily on your mail to learn. Also you'll be having the step by step path to learn
+                                    - <a href="learnwebdev.html" style="text-decoration: underline;">The roadmap</a> in my website. I will also upload the videos on weekends but we won't be having live sessions on weekends.
                                 </li> 
                                 <hr>
                             </ul>
@@ -426,6 +433,32 @@
                 <div class="reveal-holder">
                     <div class="reveal-block right" data-aos="reveal-right"></div>
                     <a class="email" href="mailto:design.develop13@gmail.com">design.develop13@gmail.com</a>
+                    <br>
+                    <p>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCrpf13_a3qKxFBs-IaAlRkQ" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/_shrutipanjwani/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/_shrutipanjwani" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/crocoding" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/QNCt9TsJvN" target="_blank"><i class="fab fa-discord"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://medium.com/crocoding/month-to-master/home" target="_blank"><i class="fab fa-medium"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/cro-coding" target="_blank"><i class="fab fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </p>
                 </div>
 
                 <div class="reveal-holder">
@@ -509,37 +542,6 @@
                 easing: 'ease-out-quart',
                 once: true
             });
-
-            // Set the date we're counting down to
-            var countDownDate = new Date("May 1, 2021 00:00:00").getTime();
-
-            // Update the count down every 1 second
-            var x = setInterval(function() {
-
-            // Get today's date and time
-            var now = new Date().getTime();
-
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
-
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Display the result in the element with id="demo"
-            document.getElementById("days").innerHTML = days;
-            document.getElementById("hours").innerHTML = hours;
-            document.getElementById("minutes").innerHTML = minutes;
-            document.getElementById("seconds").innerHTML = seconds;
-
-            // If the count down is finished, write some text
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "Let's begin";
-            }
-            }, 1000);
             
             /* Firebase Connection */
 
