@@ -271,8 +271,8 @@ ul .transition li {
 
 .home__img {
 	position: absolute;
-	top: 44%;
-	left: 22%;
+	top: 55%;
+	left: 15%;
 	width: 235px;
 	height: 353px;
 	z-index: var(--z-tooltip);
