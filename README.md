@@ -4,13 +4,13 @@
 
 ![Channel Art](https://user-images.githubusercontent.com/67150258/115206784-9372e680-a118-11eb-959c-618433be13a9.png)
 
-- 🔭 I’m currently working on [Month to Master](https://github.com/Cro-Coding/month-to-master)
+- 🔭 I’m currently preparing for [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/)
 
-- 🌱 I’m currently learning **PWAs, AR/VR with React**
+- 🌱 I’m currently learning about **PWAs, AR/VR with React**
 
-- 👨‍💻 All of my projects are available at [https://shrutipanjwani.com](https://shrutipanjwani.com)
+- 👨‍💻 All of my projects are available at [https://shrutipanjwani.com](https://shrutipanjwani.com/)
 
-- 📝 I regularly write articles on my publication [https://medium.com/crocoding](https://medium.com/crocoding)
+- 📝 I write articles on my publication [https://medium.com/crocoding](https://medium.com/crocoding)
 
 - 💬 Ask me about **HTML, CSS, JS, React & MERN**
 
