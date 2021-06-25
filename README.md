@@ -57,5 +57,11 @@
 
   -  <a href="https://youtu.be/ZO6RGhYAhuc" target="_blank">CroCoding - Web Development Channel Trailer</a>
   -  <a href="https://youtu.be/Rdnk7Z-GxGs" target="_blank">Roadmap to become a great frontend developer in 2021</a>
+  -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph30gxmE6jhbZmGiiICCKSnY4" target="_blank">MERN (MongoDB + Express JS + React JS + Node JS) FULL STACK Series</a>
+  -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph319qPHlZIralGntWXS3JItg" target="_blank">React JS Series</a>
+  -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph30m5kyqgxQ7900bfBOJEipt" target="_blank">JavaScript Series</a>
+  -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph30FH9UE0N8z-MSmu5PDc7aV" target="_blank">CSS3 Series</a>
+  -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph30Nv-aI3dVZH6ZuiwqdTkp1" target="_blank">HTML5 Series</a>
+  
 </div>
 
