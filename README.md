@@ -49,7 +49,7 @@
 <div align="left">
   My Latest Blog Posts 🌱
 
-  - <a href="https://medium.com/crocoding/month-to-master-c2d5ae75f5fa" target="_blank">Month to Master - #31DaysBootcamp</a>
+  - <a href="https://medium.com/crocoding" target="_blank">CroCoding - A Dev Community Blogs</a>
   
   <hr>
   
