@@ -6,13 +6,13 @@
 
 - 🔭 I’m currently preparing for [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/)
 
-- 🌱 I’m currently learning about **PWAs, AR/VR with React**
+- 🌱 I’m currently learning about **Web 3.0, PWAs, AR/VR with React**
 
 - 👨‍💻 All of my projects are available at [https://shrutipanjwani.com](https://shrutipanjwani.com/)
 
 - 📝 I write articles on my publication [https://medium.com/crocoding](https://medium.com/crocoding)
 
-- 💬 Ask me about **HTML, CSS, JS, React & MERN**
+- 💬 Ask me about **HTML, CSS, JS, PHP, MySql, React JS & MERN Stack**
 
 - 📫 How to reach me **shrutipanjwani13@gmail.com**
 
