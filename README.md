@@ -27,7 +27,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/_shrutipanjwani" target="blank"><img align="center" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-4.png" alt="_shrutipanjwani" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/shrutipanjwani" target="blank"><img align="center" src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="shrutipanjwani" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/shruti-panjwani-348306193/" target="blank"><img align="center" src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="shrutipanjwani" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/15499004" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png" alt="15499004" height="30" width="40" /></a>
 <a href="https://instagram.com/_shrutipanjwani" target="blank"><img align="center" src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-svg-vector-for-print.svg" alt="_shrutipanjwani" height="30" width="40" /></a>
 <a href="https://shrutipanjwani.medium.com/" target="blank"><img align="center" src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Medium-512.png" alt="shrutipanjwani.medium.com" height="30" width="40" /></a>
