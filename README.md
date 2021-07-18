@@ -1,10 +1,10 @@
 <h1 align="center">Hi 👋, I'm Shruti Panjwani</h1>
-<h3 align="center">A Hustler, Learner, Explorer, Freelance Full Stack Developer and Content Creator 💻 from India/h3>
+<h3 align="center">A Hustler, Learner, Explorer, Freelance Full Stack Developer and Content Creator 💻 from India </h3>
 <h3 align="center">Building Dots to Connect Later!</h3>
 
 ![Channel Art](https://user-images.githubusercontent.com/67150258/115206784-9372e680-a118-11eb-959c-618433be13a9.png)
 
-- 🔭 I’m currently competing in [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/)
+- 🔭 I’m currently competing in [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/) and Building [CroCoding](https://www.youtube.com/c/crocoding)
 
 - 🌱 I’m currently learning about **Web 3.0, PWAs, AR/VR with React**
 
