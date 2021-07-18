@@ -30,9 +30,9 @@
 <a href="https://linkedin.com/in/shrutipanjwani" target="blank"><img align="center" src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="shrutipanjwani" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/15499004" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png" alt="15499004" height="30" width="40" /></a>
 <a href="https://instagram.com/_shrutipanjwani" target="blank"><img align="center" src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-svg-vector-for-print.svg" alt="_shrutipanjwani" height="30" width="40" /></a>
-<a href="https://medium.com/@shrutipanjwani13" target="blank"><img align="center" src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Medium-512.png" alt="@shrutipanjwani13" height="30" width="40" /></a>
+<a href="https://shrutipanjwani.medium.com/" target="blank"><img align="center" src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Medium-512.png" alt="shrutipanjwani.medium.com" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/crocoding" target="blank"><img align="center" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-512.png" alt="crocoding" height="30" width="40" /></a>
-<a href="https://discord.gg/9Nh4EEhg" target="blank"><img align="center" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-512.png" alt="9Nh4EEhg" height="30" width="40" /></a>
+<a href="https://discord.com/invite/QNCt9TsJvN" target="blank"><img align="center" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-512.png" alt="QNCt9TsJvN" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
