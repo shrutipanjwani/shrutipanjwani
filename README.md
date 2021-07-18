@@ -4,7 +4,7 @@
 
 ![Channel Art](https://user-images.githubusercontent.com/67150258/115206784-9372e680-a118-11eb-959c-618433be13a9.png)
 
-- 🔭 I’m currently competing in [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/) and Building [CroCoding](https://www.youtube.com/c/crocoding)
+- 🔭 I’m currently competing in [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/) and Building [CroCoding](https://www.youtube.com/c/crocoding) - A Growing Developers and Developers to be Community
 
 - 🌱 I’m currently learning about **Web 3.0, PWAs, AR/VR with React**
 
