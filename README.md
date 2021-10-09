@@ -4,7 +4,7 @@
 
 ![LinkedIn Banner - Shruti Panjwani (line)](https://user-images.githubusercontent.com/67150258/136658277-bc1ad88e-ed8e-4eb5-b308-06806027ade8.png)
 
-- 🔭 I’m currently competing in [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/) and Building [Coders Troop](https://www.youtube.com/c/crocoding) - A Growing Developers and Developers to be Community
+- 🔭 I’m currently competing in [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/) and Building [Coders Troop](https://www.youtube.com/channel/UCrpf13_a3qKxFBs-IaAlRkQ) - A Growing Developers and Developers to be Community
 
 - 🌱 I’m currently learning about **Web 3.0, PWAs, AR/VR with React**
 
@@ -18,7 +18,7 @@
 
 - 📄 Know about my experiences [https://shrutipanjwani.com/work](https://shrutipanjwani.com/work)
 
-- ⚡ **I love frontend!**
+- ⚡ **I love creating interactive frontend experiences!**
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
