@@ -24,11 +24,10 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/_shrutipanjwani" target="blank"><img align="center" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-4.png" alt="_shrutipanjwani" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/shruti-panjwani-348306193/" target="blank"><img align="center" src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="shrutipanjwani" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/15499004" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png" alt="15499004" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/shrutipanjwani/" target="blank"><img align="center" src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="shrutipanjwani" height="30" width="40" /></a>
 <a href="https://instagram.com/_shrutipanjwani" target="blank"><img align="center" src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-svg-vector-for-print.svg" alt="_shrutipanjwani" height="30" width="40" /></a>
 <a href="https://shrutipanjwani.medium.com/" target="blank"><img align="center" src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Medium-512.png" alt="shrutipanjwani.medium.com" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/crocoding" target="blank"><img align="center" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-512.png" alt="crocoding" height="30" width="40" /></a>
+<a href="https://www.youtube.com/channel/UCrpf13_a3qKxFBs-IaAlRkQ" target="blank"><img align="center" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-512.png" alt="crocoding" height="30" width="40" /></a>
 <a href="https://discord.com/invite/QNCt9TsJvN" target="blank"><img align="center" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-512.png" alt="QNCt9TsJvN" height="30" width="40" /></a>
 </p>
 
@@ -46,13 +45,16 @@
 <div align="left">
   My Latest Blog Posts 🌱
 
-  - <a href="https://medium.com/crocoding" target="_blank">CroCoding - A Dev Community Blogs</a>
+  - <a href="https://medium.com/coderstroop/html-as-the-foundation-9fa9049c25a4" target="_blank">HTML as the Foundation</a>
+  - <a href="https://medium.com/coderstroop/css-for-design-badb0d774f29" target="_blank">CSS for Design</a>
+  - <a href="https://medium.com/coderstroop/javascript-objects-bb8f9e93a56e" target="_blank">JavaScript Objects</a>
+  - <a href="https://medium.com/coderstroop/react-for-creating-user-interfaces-431677152887" target="_blank">React for Creating User Interfaces</a>
   
   <hr>
   
   My Latest YouTube Videos 🌱
 
-  -  <a href="https://youtu.be/ZO6RGhYAhuc" target="_blank">CroCoding - Web Development Channel Trailer</a>
+  -  <a href="https://youtu.be/ZO6RGhYAhuc" target="_blank">Coders Troop - Web Development Channel Trailer</a>
   -  <a href="https://youtu.be/Rdnk7Z-GxGs" target="_blank">Roadmap to become a great frontend developer in 2021</a>
   -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph30gxmE6jhbZmGiiICCKSnY4" target="_blank">MERN (MongoDB + Express JS + React JS + Node JS) FULL STACK Series</a>
   -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph319qPHlZIralGntWXS3JItg" target="_blank">React JS Series</a>
