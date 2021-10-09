@@ -2,7 +2,7 @@
 <h3 align="center">A Hustler, Learner, Explorer, Freelance Full Stack Developer and Content Creator 💻 from India </h3>
 <h3 align="center">Building Dots to Connect Later!</h3>
 
-![Coders Troop](https://user-images.githubusercontent.com/67150258/136658231-246aabbc-c04c-4969-819c-1674e593b397.png)
+![LinkedIn Banner - Shruti Panjwani (side square)](https://user-images.githubusercontent.com/67150258/136658252-4c37d9bc-25db-4a58-b580-6301f5685f3b.png)
 
 - 🔭 I’m currently competing in [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/) and Building [CroCoding](https://www.youtube.com/c/crocoding) - A Growing Developers and Developers to be Community
 
