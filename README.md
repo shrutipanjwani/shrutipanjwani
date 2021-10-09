@@ -4,17 +4,17 @@
 
 ![LinkedIn Banner - Shruti Panjwani (line)](https://user-images.githubusercontent.com/67150258/136658277-bc1ad88e-ed8e-4eb5-b308-06806027ade8.png)
 
-- 🔭 I’m currently competing in [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/) and Building [CroCoding](https://www.youtube.com/c/crocoding) - A Growing Developers and Developers to be Community
+- 🔭 I’m currently competing in [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/) and Building [Coders Troop](https://www.youtube.com/c/crocoding) - A Growing Developers and Developers to be Community
 
 - 🌱 I’m currently learning about **Web 3.0, PWAs, AR/VR with React**
 
 - 👨‍💻 All of my projects are available at [https://shrutipanjwani.com](https://shrutipanjwani.com/)
 
-- 📝 I write articles on my publication [https://medium.com/crocoding](https://medium.com/crocoding)
+- 📝 I write articles on my publication [https://medium.com/coderstroop](https://medium.com/coderstroop)
 
-- 💬 Ask me about **HTML, CSS, JS, PHP, MySql, React JS & MERN Stack**
+- 💬 Ask me about **HTML, CSS, JavaScript, PHP, MySql, React, Express, Node**
 
-- 📫 How to reach me **shrutipanjwani13@gmail.com**
+- 📫 How to reach me **hello@shrutipanjwani.com**
 
 - 📄 Know about my experiences [https://shrutipanjwani.com/work](https://shrutipanjwani.com/work)
 
