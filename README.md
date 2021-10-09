@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Shruti Panjwani</h1>
-<h3 align="center">A Hustler, Learner, Explorer, Freelance Full Stack Developer and Content Creator 💻 from India </h3>
-<h3 align="center">Building Dots to Connect Later!</h3>
+<h3 align="center">Explorer | Freelance Full Stack Developer | Content Creator 💻</h3>
+<h3 align="center">Building Dots to Connect Later! 💡</h3>
 
 ![LinkedIn Banner - Shruti Panjwani (line)](https://user-images.githubusercontent.com/67150258/136658277-bc1ad88e-ed8e-4eb5-b308-06806027ade8.png)
 
