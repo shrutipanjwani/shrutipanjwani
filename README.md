@@ -10,7 +10,9 @@
 
 - 👨‍💻 All about me [https://shrutipanjwani.com](https://shrutipanjwani.com/)
 
-- 📝 I create videos on my YouTube Channel [https://www.youtube.com/c/shruticodes/](https://www.youtube.com/c/shruticodes/)
+- 📝 I create videos on my Coding YouTube Channel [https://www.youtube.com/c/shruticodes/](https://www.youtube.com/c/shruticodes/)
+
+- 📝 I create videos on my Vlogging YouTube Channel [https://www.youtube.com/c/ShrutiPanjwani](https://www.youtube.com/c/ShrutiPanjwani) about freelance developer life and traveling
 
 - 💬 Ask me about **HTML/CSS, JavaScript, TypeScript, PHP, MySql, MERN**
 
