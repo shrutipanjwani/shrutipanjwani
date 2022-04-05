@@ -4,7 +4,7 @@
 
 ![LinkedIn Banner - Shruti Panjwani (line)](https://user-images.githubusercontent.com/67150258/136658277-bc1ad88e-ed8e-4eb5-b308-06806027ade8.png)
 
-- 🔭 I’m currently competing in [JuniorSkills 2021](https://worldskillsindia.co.in/juniorskills2021/) National Web Technologies Competition
+- 🔭 I'm a silver medalist at [IndiaSkill Juniors 2021](https://worldskillsindia.co.in/juniorskills2021/) National Web Technologies Competition
 
 - 🌱 I’m currently exploring **Web 3.0** and practicing advanced technology and next level freelancing
 
