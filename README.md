@@ -2,7 +2,7 @@
 <h3 align="center">Freelance Full Stack Web Developer | Content Creator 💻</h3>
 <h3 align="center">Building Dots to Connect Later! 💡</h3>
 
-![LinkedIn Banner - Shruti Panjwani (line)](https://user-images.githubusercontent.com/67150258/136658277-bc1ad88e-ed8e-4eb5-b308-06806027ade8.png)
+![Black Minimal Business Personal Profile Linkedin Banner](https://user-images.githubusercontent.com/67150258/187352796-9b0adba8-0966-4ba8-b610-f8c6d9d360c7.png)
 
 - 🔭 I'm a silver medalist at [IndiaSkill Juniors 2021](https://worldskillsindia.co.in/juniorskills2021/) National Web Technologies Competition
 
