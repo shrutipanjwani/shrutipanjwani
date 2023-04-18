@@ -1,24 +1,20 @@
-<h1 align="center">Hi 👋, I'm Shruti Panjwani</h1>
-<h3 align="center">Freelance Full Stack Web Developer | Content Creator 💻</h3>
-<h3 align="center">Building Dots to Connect Later! 💡</h3>
+<h1 align="center">Hey 👋, I'm Shruti Panjwani</h1>
+<h3 align="center"> Full Stack Dev with Designer’s eyes and insight & Content Creator 💻 </h3>
 
 ![Black Minimal Business Personal Profile Linkedin Banner](https://user-images.githubusercontent.com/67150258/187352796-9b0adba8-0966-4ba8-b610-f8c6d9d360c7.png)
 
-- 🔭 I'm a silver medalist at [IndiaSkill Juniors 2021](https://worldskillsindia.co.in/juniorskills2021/) National Web Technologies Competition
+- 🔭 I'm a National Level Silver Medalist at [IndiaSkill Juniors 2021](https://worldskillsindia.co.in/juniorskills2021/)in Web Technologies Skill
 
 - 🌱 I’m currently exploring **Web 3.0** and practicing advanced technology and next level freelancing
 
-- 👨‍💻 All about me [https://shrutipanjwani.com](https://shrutipanjwani.com/)
+- 👨‍💻 My 3 year old website [https://shrutipanjwani.com](https://shrutipanjwani.com/) (revamping soon)
 
-- 📝 I create videos on my Coding YouTube Channel [https://www.youtube.com/c/shruticodes/](https://www.youtube.com/c/shruticodes/)
+- 📝 I've a couple of YouTube channels that gained a lot of reach in a very short span of time but that's paused since a year [https://www.youtube.com/c/shruticodes/](https://www.youtube.com/c/shruticodes/)
+[https://www.youtube.com/c/ShrutiPanjwani](https://www.youtube.com/c/ShrutiPanjwani) 
 
-- 📝 I create videos on my Vlogging YouTube Channel [https://www.youtube.com/c/ShrutiPanjwani](https://www.youtube.com/c/ShrutiPanjwani) about freelance developer life and traveling
+- 💬 My Skills include: C, HTML, CSS, JS, PHP, SQL, React.js, Next.js, Express.js, Node.js, MongoDB, PostgreSQL, Prisma, TailwindCSS, Sass, MaterialUI and Responsivness to create visually appealing experiences!
 
-- 💬 Ask me about **HTML/CSS, JavaScript, TypeScript, PHP, MySql, MERN**
-
-- 📫 How to reach me **hello@shrutipanjwani.com**
-
-- 📄 Know about my experiences [https://shrutipanjwani.com/work](https://shrutipanjwani.com/work)
+- 📫 Let's talk: **hello@shrutipanjwani.com**
 
 - ⚡ **I love creating interactive frontend experiences!**
 
