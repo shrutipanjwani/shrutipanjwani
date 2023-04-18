@@ -17,16 +17,20 @@
 - 📫 Got something to talk about? - **hello@shrutipanjwani.com**
 
 <br>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shrutipanjwani&show_icons=true&locale=en&layout=compact" alt="shrutipanjwani" /></p>
-<br>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shrutipanjwani&show_icons=true&locale=en" alt="shrutipanjwani" /></p>
-<br>
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shrutipanjwani&" alt="shrutipanjwani" /></p>
-<br>
-<h2 align="center">Show some  ❤️  by starring some of the repositories!</h2>
-
 <div align="left">
-  My Latest Blog Posts 🌱
+  As seen on:
+  
+  - <a href="https://youtu.be/0pAx_uwX51I" target="_blank">The Geek Monk (2021)</a>
+  - <a href="https://youtu.be/v6iUENZe6Go" target="_blank">Loop: Developers Society, JNU, Delhi (2021)</a>
+  - <a href="https://www.linkedin.com/posts/shrutipanjwani_passion-learning-skills-activity-6769698108600287232-8gSY?utm_source=share&utm_medium=member_desktop" target="_blank">DevsNest (2021)</a>
+  - <a href="https://www.linkedin.com/posts/shrutipanjwani_web3-activity-6977491540852035584-LaTz?utm_source=share&utm_medium=member_desktop" target="_blank">Solana Foundation - Delhi (2022)</a>
+  - <a href="https://www.linkedin.com/posts/shrutipanjwani_bangalore-activity-6972066073613402112-hQ7w?utm_source=share&utm_medium=member_desktop" target="_blank">The Pheonix Guild (2022)</a>
+  - <a href="https://www.linkedin.com/posts/shrutipanjwani_blessedandgrateful-activity-6940345082935939074-lqB9?utm_source=share&utm_medium=member_desktop" target="_blank">Chhattisgarh Government Youth Awards Ceremony (2022)</a>
+  - <a href="https://www.linkedin.com/posts/shrutipanjwani_india-success-winning-activity-6930469018499715072-0F1V?utm_source=share&utm_medium=member_desktop" target="_blank">IndiaSkills Fecilitation Ceremony - Delhi (2022)</a>
+  
+  <hr>
+  
+  My Blog Posts 🌱
 
   - <a href="https://medium.com/coderstroop/html-as-the-foundation-9fa9049c25a4" target="_blank">HTML as the Foundation</a>
   - <a href="https://medium.com/coderstroop/css-for-design-badb0d774f29" target="_blank">CSS for Design</a>
@@ -35,7 +39,7 @@
   
   <hr>
   
-  My Latest YouTube Videos 🌱
+  My YouTube Videos 🌱
 
   -  <a href="https://youtu.be/ZO6RGhYAhuc" target="_blank">Shruti Codes YouTube Channel Trailer</a>
   -  <a href="https://youtu.be/Rdnk7Z-GxGs" target="_blank">Roadmap to become a great frontend developer in 2021</a>
@@ -47,3 +51,5 @@
   
 </div>
 
+<br>
+<h2 align="center">Show some  ❤️  by starring some of the repositories!</h2>
