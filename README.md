@@ -1,11 +1,11 @@
 <h1 align="center">Hey 👋, I'm Shruti Panjwani</h1>
 <h3 align="center"> Full Stack Dev with Designer’s eyes and insight & Content Creator 💻 </h3>
 
-![Speaker at Solana HH 2022](https://user-images.githubusercontent.com/67150258/187352796-9b0adba8-0966-4ba8-b610-f8c6d9d360c7.png)
+![Speaker at Solana HH 2022](https://pbs.twimg.com/profile_banners/1254357707672285185/1663439580/1500x500)
 
 - 🔭 I'm a National Level Silver Medalist at [IndiaSkill Juniors 2021](https://worldskillsindia.co.in/juniorskills2021/) in Web Technologies Skill
 
-- 🌱 I’m currently exploring **Web 3.0** and practicing advanced technology and next level freelancing
+- 🌱 I started in 2020, born & brought up in Chhattisgarh and moved to Bangalore in 2022 on my own, did freelancing overseas for a couple of years and a first full time US based job for around 7 months (which wasn't for me). I'm currently exploring creative dev, AI & building on blockchain web3.
 
 - 👨‍💻 My 3 year old website [https://shrutipanjwani.com](https://shrutipanjwani.com/) (revamping soon)
 
@@ -15,18 +15,6 @@
 - ⚡ My Skills include: C, HTML, CSS, JS, PHP, SQL, React.js, Next.js, Express.js, Node.js, MongoDB, PostgreSQL, Prisma, TailwindCSS, Sass, MaterialUI and Responsivness to create visually appealing experiences!
 
 - 📫 Got something to talk about? - **hello@shrutipanjwani.com**
-
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/_shrutipanjwani" target="blank"><img align="center" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-4.png" alt="_shrutipanjwani" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/shrutipanjwani/" target="blank"><img align="center" src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="shrutipanjwani" height="30" width="40" /></a>
-<a href="https://instagram.com/_shrutipanjwani" target="blank"><img align="center" src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-svg-vector-for-print.svg" alt="_shrutipanjwani" height="30" width="40" /></a>
-<a href="https://shrutipanjwani.medium.com/" target="blank"><img align="center" src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Medium-512.png" alt="shrutipanjwani.medium.com" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/ShrutiCodes" target="blank"><img align="center" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-512.png" alt="shruti codes" height="30" width="40" /></a>
-<a href="https://discord.com/invite/QNCt9TsJvN" target="blank"><img align="center" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-512.png" alt="QNCt9TsJvN" height="30" width="40" /></a>
-</p>
-
 
 <br>
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shrutipanjwani&show_icons=true&locale=en&layout=compact" alt="shrutipanjwani" /></p>
