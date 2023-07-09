@@ -5,11 +5,11 @@
 
 - I've expertise in Next.js, React.js, TypeScript, Three.js, GSAP, PostgreSQL, Prisma, Express.js, and Node.js
 
-- I recently discovered my true calling in Ethereum and Solana blockchain technologies. I find web3 tech as one of the extremely rewarding
+- Currently I'm exploring and building in web3 technologies Solana and Ethereum
 
 - With my self-taught skills, I won a silver medal 🥈 at the National Web Technologies Competition [IndiaSkill Juniors 2021](https://worldskillsindia.co.in/juniorskills2021/) by NSDC
 
-- I worked as a freelancer with clients overseas for a couple of years & full-time in a fin-tech US based startup. Currently I'm exploring and building in web3 technologies Solana and Ethereum
+- I worked as a freelancer with clients overseas for a couple of years & full-time in a fin-tech US based startup. 
 
 - I've a couple of YouTube channels that gained a lot of reach in a very short span of time but that's paused since a year [Shruti Codes](https://www.youtube.com/c/shruticodes/) &
 [Shruti Panjwani](https://www.youtube.com/c/ShrutiPanjwani) 
