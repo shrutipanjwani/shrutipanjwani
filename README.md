@@ -28,6 +28,7 @@
   - <a href="https://www.linkedin.com/posts/shrutipanjwani_blessedandgrateful-activity-6940345082935939074-lqB9?utm_source=share&utm_medium=member_desktop" target="_blank">Chhattisgarh Government Youth Awards Ceremony (2022)</a>
   - <a href="https://www.linkedin.com/posts/shrutipanjwani_india-success-winning-activity-6930469018499715072-0F1V?utm_source=share&utm_medium=member_desktop" target="_blank">IndiaSkills Fecilitation Ceremony - Delhi (2022)</a>
   - <a href="https://twitter.com/SuperteamIN/status/1668257362459672580?s=20" target="_blank">Crosschain Clubhouse - Bangalore (2023)</a>
+  - <a href="https://youtu.be/zcyN5EVk2kA" target="_blank">The Teen Show Podcast (2023)</a>
   - <a href="#" target="_blank">The Geek Monk Podcast (2023)</a>
   - <a href="#" target="_blank">Hello World Podcast (2023)</a>
   <hr>
