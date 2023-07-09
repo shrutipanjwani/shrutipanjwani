@@ -7,6 +7,8 @@
 
 - Currently I'm exploring and building in web3 technologies Solana and Ethereum
 
+- Recent Works: [Squricl](https://squircl.app/), [CommendaHQ](https://www.commenda.io/), [Strivio Fitness](https://strivio.in/) 
+
 - With my self-taught skills, I won a silver medal 🥈 at the National Web Technologies Competition [IndiaSkill Juniors 2021](https://worldskillsindia.co.in/juniorskills2021/) by NSDC
 
 - I worked as a freelancer with clients overseas for a couple of years & full-time in a fin-tech US based startup. 
