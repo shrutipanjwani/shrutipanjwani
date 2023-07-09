@@ -1,5 +1,5 @@
 <h1 align="center">Hey 👋, I'm Shruti Panjwani</h1>
-<h3 align="center"> Full Stack Dev with Designer’s eyes and insight & Content Creator 💻 </h3>
+<h3 align="center"> 👩🏻‍💻 Full Stack Web Engineer, Designer and Content Creator </h3>
 
 ![Speaker at Solana HH 2022](https://pbs.twimg.com/profile_banners/1254357707672285185/1663439580/1500x500)
 
