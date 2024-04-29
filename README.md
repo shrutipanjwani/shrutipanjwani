@@ -1,8 +1,6 @@
 <h1 align="center">Shruti Panjwani</h1>
 <h3 align="center"> 👩🏻‍💻 Full Stack Web Engineer, Designer and Content Creator </h3>
 
-![Speaker at Solana HH 2022](https://pbs.twimg.com/profile_banners/1254357707672285185/1663439580/1500x500)
-
 - I've expertise in Next.js, React.js, TypeScript, Three.js, GSAP, PostgreSQL, Prisma, Express.js, and Node.js
 
 - Currently I'm exploring and building in web3 technologies Solana and Ethereum
