@@ -34,27 +34,6 @@
   - <a href="https://youtu.be/XZGl0VBNI7I?si=MtZutBdiVliYKbi_" target="_blank">19 Year Old Earn More Than FAANG Engineers 😱 | Biggest Motivation 💪🏻 (2023)</a>
   - <a href="https://youtu.be/DBTf3qvKwsc?si=0zBSl80do243xTgS" target="_blank">19 Year-Old Full Stack Developer & Freelancer | NO College Degree Podcast with @HelloWorldbyprince (2023)</a>
   - <a href="https://youtu.be/WUXcaI1ZO88?si=gcB4GIC9tjq98y5n" target="_blank">How to become a TOP 1% Developer and Freelancer - Ft. Shruti Panjwani (2023)</a>
-  <hr>
-  
-  My Blog Posts 🌱
-
-  - <a href="https://medium.com/coderstroop/html-as-the-foundation-9fa9049c25a4" target="_blank">HTML as the Foundation</a>
-  - <a href="https://medium.com/coderstroop/css-for-design-badb0d774f29" target="_blank">CSS for Design</a>
-  - <a href="https://medium.com/coderstroop/javascript-objects-bb8f9e93a56e" target="_blank">JavaScript Objects</a>
-  - <a href="https://medium.com/coderstroop/react-for-creating-user-interfaces-431677152887" target="_blank">React for Creating User Interfaces</a>
-  
-  <hr>
-  
-  My YouTube Videos 🌱
-
-  -  <a href="https://youtu.be/ZO6RGhYAhuc" target="_blank">Shruti Codes YouTube Channel Trailer</a>
-  -  <a href="https://youtu.be/Rdnk7Z-GxGs" target="_blank">Roadmap to become a great frontend developer in 2021</a>
-  -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph30gxmE6jhbZmGiiICCKSnY4" target="_blank">MERN (MongoDB + Express JS + React JS + Node JS) FULL STACK Series</a>
-  -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph319qPHlZIralGntWXS3JItg" target="_blank">React JS Series</a>
-  -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph30m5kyqgxQ7900bfBOJEipt" target="_blank">JavaScript Series</a>
-  -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph30FH9UE0N8z-MSmu5PDc7aV" target="_blank">CSS3 Series</a>
-  -  <a href="https://youtube.com/playlist?list=PLvXL1BJZph30Nv-aI3dVZH6ZuiwqdTkp1" target="_blank">HTML5 Series</a>
-  
 </div>
 
 <br>
