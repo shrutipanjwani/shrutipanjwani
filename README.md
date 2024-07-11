@@ -28,6 +28,16 @@ What we've been working on so far?
   - <a href="https://youtu.be/DBTf3qvKwsc?si=0zBSl80do243xTgS" target="_blank">19 Year-Old Full Stack Developer & Freelancer | NO College Degree Podcast with @HelloWorldbyprince (2023)</a>
   - <a href="https://youtu.be/WUXcaI1ZO88?si=gcB4GIC9tjq98y5n" target="_blank">How to become a TOP 1% Developer and Freelancer - Ft. Shruti Panjwani (2023)</a>
 </div>
+<br>
+Communities I am part of.
+
+-   [Developer DAO](https://www.developerdao.com/)
+-   [Superteam DAO](https://superteam.fun/)
+-   [Solana Collective](https://x.com/SolanaCollectiv)
+-   [Zo World](https://zo.xyz/)
+-   [Build Cities](https://www.buildcities.network/)
+-   [Onchain Dreamers](https://www.onchaindreamers.com/)
+-   [FBI](https://warpcast.com/callusfbi)
 
 <br>
 <h2 align="center">Show some  ❤️  by starring some of the repositories!</h2>
