@@ -10,6 +10,12 @@ What we've been working on so far?
 
 - [Basics by Coinbasics](https://coinbasics-edtech.vercel.app/) - A vernacular gamified academy to help people learn, explore, earn and build on the future of crypto. The ultimate go-to platform for gamified learning, community driven growth and ecosystem wide opportunities at your fingertips.
 
+From last 1300+ days as a full stack engineer, I've worked with:
+- [Cryptonary](https://cryptonary.com/) - For Investors to secure their financial freedom with cutting-edge crypto tools and insights.
+- [Commenda Finance](https://www.commenda.io/) - Global tax compliance for cross-border companies
+- [Strivio Fitness](https://strivio.in/) - Gamified Holistic Wellness journey
+
+& more...
 
 <br>
 <div align="left">
