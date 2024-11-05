@@ -4,11 +4,12 @@ I'm building [Coinbasics](coinbasics.xyz) - Your go to source for anything Web3:
 
 What we've been working on so far?
 
+- [Basics by Coinbasics](basicsxyz.com) - A gamified guide to all things onchain. Learn, earn and surf through possibilities on Base
+
 - [Alpha by Coinbasics](https://coinbasics.xyz/alpha) - Your exclusive insider pass to the world of crypto.
 
 - [Airdrop Hub by Coinbasics](https://coinbasics.xyz/airdrops) - Dive into trends, identify potential oppoutunities and farm airdrops effortlessly. We automatically prepare your wallets for drops in few steps.
 
-- [Basics by Coinbasics](basicsxyz.com) - A vernacular gamified academy to help people learn, explore, earn and build on the future of crypto. The ultimate go-to platform for gamified learning, community driven growth and ecosystem wide opportunities at your fingertips.
 <br>
 
 From last 1300+ days as a full stack engineer, I've worked with:
