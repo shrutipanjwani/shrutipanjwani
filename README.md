@@ -1,1 +1,1 @@
-nerd | cookin’ stuff in ai x crypto
+nerd. cookin’ stuff in ai x crypto
