@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrutz</title>
+    <link rel="icon" type="image/png" href="./icon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
+    
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    },
+                    colors: {
+                        background: '#000000', 
+                        muted: '#888888',
+                        accent: '#ffffff',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* CURSOR SETUP */
+        * {
+            cursor: url('./cursor.svg') 8 8, auto !important;
+        }
+
+        a, button, [role="button"] {
+            cursor: url('./cursor.svg') 8 8, pointer !important;
+        }
+
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        /* Hide scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #000000; }
+        ::-webkit-scrollbar-thumb { background: #333; }
+        
+        .image-grayscale {
+            filter: grayscale(100%);
+            transition: filter 0.3s ease;
+        }
+        .image-grayscale:hover {
+            filter: grayscale(0%);
+        }
+
+        /* Dotted underline utility - applied to specific spans */
+        .link-underline {
+            border-bottom: 1px dotted rgba(255, 255, 255, 0.6);
+            padding-bottom: 1px;
+            transition: border-color 0.2s ease;
+        }
+        .link-underline:hover {
+            border-bottom: 1px dotted rgba(255, 255, 255, 1);
+        }
+        
+        /* Ensure links inside text don't break flow */
+        a { display: inline-flex; align-items: center; vertical-align: baseline;}
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+        const { motion } = window.Motion;
+
+        // --- Animation Variants ---
+        const containerVariants = {
+            hidden: { opacity: 0 },
+            visible: {
+                opacity: 1,
+                transition: { staggerChildren: 0.1, delayChildren: 0.2 }
+            }
+        };
+
+        const itemVariants = {
+            hidden: { y: 20, opacity: 0 },
+            visible: { 
+                y: 0, 
+                opacity: 1,
+                transition: { type: "spring", stiffness: 50, damping: 20 }
+            }
+        };
+
+        // --- Component: Arrow Icon ---
+        const ArrowIcon = () => (
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" className="inline h-3 w-3 ml-1 -mt-0.5">
+                <path fillRule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clipRule="evenodd"></path>
+            </svg>
+        );
+
+        // --- Component: ScrambleText ---
+        const ScrambleText = ({ children, className = "", autoStart = false }) => {
+            const [text, setText] = useState(children);
+            const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
+            
+            const triggerScramble = () => {
+                const baseText = String(children);
+                let pos = 0;
+                const interval = setInterval(() => {
+                    const scrambled = baseText.split("").map((char, index) => {
+                        if (index < pos) return baseText[index];
+                        return chars[Math.floor(Math.random() * chars.length)];
+                    }).join("");
+                    
+                    setText(scrambled);
+                    pos += 1/3; 
+                    if (pos >= baseText.length) {
+                        clearInterval(interval);
+                        setText(baseText);
+                    }
+                }, 30);
+                return interval;
+            };
+
+            const handleMouseEnter = () => triggerScramble();
+
+            useEffect(() => {
+                if (autoStart) {
+                    const timer = setTimeout(() => triggerScramble(), 500);
+                    return () => clearTimeout(timer);
+                }
+            }, [autoStart, children]);
+
+            return (
+                <span 
+                    onMouseEnter={handleMouseEnter} 
+                    className={`inline-block transition-all ${className}`}
+                >
+                    {text}
+                </span>
+            );
+        };
+
+        // --- Component: ListItem ---
+        const ListItem = ({ number, title, subtitle, meta, link }) => (
+            <motion.div variants={itemVariants} className="mb-12 group">
+                <div className="text-muted mb-2 text-sm font-mono">
+                    {number}
+                </div>
+                <div className="mb-2">
+                   {/* We assume 'title' is passed as a complete JSX object if it needs complex linking */}
+                   {typeof title === 'string' ? (
+                       link ? (
+                           <a href={link} target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors inline-flex items-center gap-1 group/link">
+                               <span className="link-underline"><ScrambleText>{title}</ScrambleText></span>
+                               <span className="opacity-50 transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform duration-300"><ArrowIcon /></span>
+                           </a>
+                       ) : (
+                           <span className="">{title}</span>
+                       )
+                   ) : (
+                       <span className="">{title}</span>
+                   )}
+                </div>
+                
+                {subtitle && (
+                    <div className="text-sm leading-relaxed mb-2 text-gray-300">
+                        {subtitle}
+                    </div>
+                )}
+                
+                {meta && (
+                    <div className="text-xs text-muted italic mt-1 font-mono">
+                        {meta}
+                    </div>
+                )}
+            </motion.div>
+        );
+
+        // --- Component: Sidebar Link ---
+        const SidebarLink = ({ href, label }) => (
+            <motion.li variants={itemVariants}>
+                <a href={href} target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-gray-300 transition-all w-fit group">
+                    <span className="link-underline"><ScrambleText>{label}</ScrambleText></span>
+                    <span className="opacity-50 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300">
+                        <ArrowIcon/>
+                    </span>
+                </a>
+            </motion.li>
+        );
+
+        // --- Helper for Text Links ---
+        const TextLink = ({ href, text }) => (
+             <a href={href} target="_blank" rel="noopener noreferrer" className="group inline-flex items-center hover:text-white transition-colors">
+                <span className="link-underline"><ScrambleText>{text}</ScrambleText></span>
+                <span className="opacity-50 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"><ArrowIcon/></span>
+            </a>
+        );
+
+        // --- Main App ---
+        const App = () => {
+            return (
+                <motion.div 
+                    className="min-h-screen font-mono p-6 md:p-12 lg:p-10 max-w-[1600px] mx-auto"
+                    initial="hidden"
+                    animate="visible"
+                    variants={containerVariants}
+                >
+                    
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-start">
+                        
+                        {/* LEFT COLUMN */}
+                        <div className="lg:col-span-4 flex flex-col gap-8">
+                            
+                            <motion.header variants={itemVariants} className="mb-2">
+                                <h1 className="text-4xl md:text-5xl italic font-serif text-white">
+                                    Shrutz <span className="text-xl not-italic">✦</span>
+                                </h1>
+                            </motion.header>
+
+                            {/* Bio */}
+                            <motion.div variants={itemVariants} className="text-sm leading-relaxed max-w-md">
+                                <p className="mb-6 block text-gray-200">
+                                    nerd. cookin’ something cool in ai X crypto. cofounder{" "}
+                                    <TextLink href="https://alphai.co/" text="alphai.co" />
+                                </p>
+                                <p className="text-muted block">
+                                    📍 bangalore / sf <br/>
+                                    <a href="mailto:shrutz@alphai.co" className="hover:text-white transition-colors inline-flex items-center mt-1">
+                                        <span className="link-underline"><ScrambleText>shrutz@alphai.co</ScrambleText></span>
+                                    </a>
+                                </p>
+                            </motion.div>
+
+                            {/* Image */}
+                            <motion.div variants={itemVariants} className="w-full max-w-[200px] aspect-[3/5] overflow-hidden bg-gray-900 rounded-sm">
+                                <img 
+                                    src="./profile.jpg" 
+                                    alt="Shrutz" 
+                                    className="w-full h-full object-cover image-grayscale"
+                                />
+                            </motion.div>
+
+                            {/* Links Section */}
+                            <motion.div variants={itemVariants} className="grid grid-cols-1 gap-8 mt-2">
+                                <div>
+                                    <h3 className="text-xs font-bold mb-4 uppercase tracking-widest text-muted">
+                                        Elsewhere
+                                    </h3>
+                                    <ul className="space-y-2 text-sm">
+                                        <SidebarLink href="https://x.com/shrutipanjwani_" label="x" />
+                                        <SidebarLink href="https://www.linkedin.com/in/shrutipanjwani/" label="linkedin" />
+                                        <SidebarLink href="https://github.com/shrutipanjwani" label="github" />
+                                        <SidebarLink href="https://www.instagram.com/_shrutipanjwani" label="instagram" />
+                                    </ul>
+                                </div>
+                            </motion.div>
+                        </div>
+
+                        {/* MIDDLE SPACER */}
+                        <div className="hidden lg:block lg:col-span-1"></div>
+
+                        {/* RIGHT CONTENT AREA */}
+                        <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-12 pt-2"> 
+                            
+                            {/* CURRENTLY Column */}
+                            <div>
+                                <motion.h3 variants={itemVariants} className="text-xs font-bold mb-12 uppercase tracking-widest">
+                                    Currently
+                                </motion.h3>
+                                
+                                <ListItem 
+                                    number="01"
+                                    // Title split: Static text + Scramble Link
+                                    title={
+                                        <span>
+                                            co-founder/cto @ <TextLink href="https://alphai.co/" text="alphai" />
+                                        </span>
+                                    }
+                                    subtitle="the last trading platform you'll need. event-driven agentic trading os - changing how millions trade."
+                                    meta="since feb 2025 (incubated by base)"
+                                />
+
+                                <ListItem 
+                                    number="02"
+                                    title={
+                                        <span>
+                                            studying cs @ <TextLink href="https://www.iu.org/" text="iu" />
+                                        </span>
+                                    }
+                                    subtitle="self distance learning"
+                                    meta="(2022-2026)"
+                                />
+
+                                <ListItem 
+                                    number="03"
+                                    title="i write a lot"
+                                    subtitle={
+                                        <span>
+                                            journals, technical notes, threads. never published formally - catch some on <TextLink href="https://x.com/shrutipanjwani_" text="x" />
+                                        </span>
+                                    }
+                                />
+                            </div>
+
+                            {/* PAST LIFE Column */}
+                            <div>
+                                <motion.h3 variants={itemVariants} className="text-xs font-bold mb-12 uppercase tracking-widest">
+                                    Past Life
+                                </motion.h3>
+                                
+                                <ListItem 
+                                    number="01"
+                                    title={
+                                        <span>
+                                            co-founder @ <TextLink href="https://www.coinbasics.xyz/alpha" text="coinbasics" />
+                                        </span>
+                                    }
+                                    subtitle={
+                                        <span>
+                                            17k+ subscriber newsletter, built Basics by coinbasics featured on <TextLink href="https://www.coinbase.com/en-in/developer-platform/discover/launches/builder-grants-round2-recipients#Basics" text="coinbase" />. started @ 19, pivoted to alphai to chase harder problems.
+                                        </span>
+                                    }
+                                />
+
+                                <ListItem 
+                                    number="02"
+                                    title={
+                                        <span>
+                                            founding engineer @ <TextLink href="https://www.commenda.io/" text="commenda" />
+                                        </span>
+                                    }
+                                    subtitle="built global compliance tools with a cracked team. started @ 18, stepped back to do something of my own."
+                                    meta="(2022-23) - now raised $10m seed"
+                                />
+
+                                <ListItem 
+                                    number="03"
+                                    title={
+                                        <span>
+                                            won silver @ <TextLink href="https://www.linkedin.com/feed/update/urn:li:activity:6930469018499715072/" text="indiaskills" />  nationals
+                                        </span>
+                                    }
+                                    subtitle="built software in 3 hours, no internet, no ai @ 16, felicitated by indian government."
+                                />
+
+                                <ListItem 
+                                    number="04"
+                                    title="independent contractor"
+                                    subtitle={
+                                        <span>
+                                            shipped over 10 scalable softwares overseas end-to-end while in high school. moved out @ 17 to bangalore, life changed a lot since then. founder member @<TextLink href="https://zo.xyz/" text="zo world" />
+                                        </span>
+                                    }
+                                />
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <motion.footer variants={itemVariants} className="mt-24 text-xs text-muted">
+                        © {new Date().getFullYear()} Shrutz.
+                    </motion.footer>
+                </motion.div>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
