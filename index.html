@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet">
     
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
@@ -226,18 +231,18 @@
                             
                             <motion.header variants={itemVariants} className="mb-2">
                                 <h1 className="text-4xl md:text-5xl italic font-serif text-white">
-                                    Shrutz <span className="text-xl not-italic">✦</span>
+                                    Shrutz <span className="text-xl not-italic"></span>
                                 </h1>
                             </motion.header>
 
                             {/* Bio */}
                             <motion.div variants={itemVariants} className="text-sm leading-relaxed max-w-md">
                                 <p className="mb-6 block text-gray-200">
-                                    nerd. cookin’ something cool in ai X crypto. cofounder{" "}
+                                    nerd. cookin something cool in ai X crypto. cofounder{" "}
                                     <TextLink href="https://alphai.co/" text="alphai.co" />
                                 </p>
                                 <p className="text-muted block">
-                                    📍 bangalore / sf <br/>
+                                     bangalore / sf <br/>
                                     <a href="mailto:shrutz@alphai.co" className="hover:text-white transition-colors inline-flex items-center mt-1">
                                         <span className="link-underline"><ScrambleText>shrutz@alphai.co</ScrambleText></span>
                                     </a>
@@ -375,7 +380,7 @@
                     </div>
                     
                     <motion.footer variants={itemVariants} className="mt-24 text-xs text-muted">
-                        © {new Date().getFullYear()} Shrutz.
+                        6 {new Date().getFullYear()} Shrutz.
                     </motion.footer>
                 </motion.div>
             );
