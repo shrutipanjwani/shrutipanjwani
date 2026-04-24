@@ -1,1 +1,1 @@
-nerd. [shrutz.com](https://shrutz.com/)
+[shrutz.com](https://shrutz.com/)
