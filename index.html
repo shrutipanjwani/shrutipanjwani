@@ -238,11 +238,11 @@
                             {/* Bio */}
                             <motion.div variants={itemVariants} className="text-sm leading-relaxed max-w-md">
                                 <p className="mb-6 block text-gray-200">
-                                    nerd. cookin something cool in ai X crypto. cofounder{" "}
+                                    nerd. cookin' something cool in ai x crypto. cofounder{" "}
                                     <TextLink href="https://alphai.co/" text="alphai.co" />
                                 </p>
                                 <p className="text-muted block">
-                                     bangalore / sf <br/>
+                                    📍 bangalore / sf <br/>
                                     <a href="mailto:shrutz@alphai.co" className="hover:text-white transition-colors inline-flex items-center mt-1">
                                         <span className="link-underline"><ScrambleText>shrutz@alphai.co</ScrambleText></span>
                                     </a>
@@ -299,22 +299,11 @@
                                         </span>
                                     }
                                     subtitle="the last trading platform you'll need. event-driven agentic trading os - changing how millions trade."
-                                    meta="since feb 2025 (incubated by base)"
+                                    meta="since feb 2025"
                                 />
 
                                 <ListItem 
                                     number="02"
-                                    title={
-                                        <span>
-                                            studying cs @ <TextLink href="https://www.iu.org/" text="iu" />
-                                        </span>
-                                    }
-                                    subtitle="self distance learning"
-                                    meta="(2022-2026)"
-                                />
-
-                                <ListItem 
-                                    number="03"
                                     title="i write a lot"
                                     subtitle={
                                         <span>
@@ -359,13 +348,18 @@
                                     number="03"
                                     title={
                                         <span>
-                                            won silver @ <TextLink href="https://www.linkedin.com/feed/update/urn:li:activity:6930469018499715072/" text="indiaskills" />  nationals
+                                            won national tech competition twice
                                         </span>
                                     }
-                                    subtitle="built software in 3 hours, no internet, no ai @ 16, felicitated by indian government."
+                                    subtitle={
+                                        <span>
+                                            built software in 3 hours, no internet, no ai @ 16, felicitated by indian government. @{" "}
+                                            <TextLink href="https://www.linkedin.com/feed/update/urn:li:activity:6930469018499715072/" text="indiaskills" />
+                                        </span>
+                                    }
                                 />
 
-                                <ListItem 
+                                {/* <ListItem 
                                     number="04"
                                     title="independent contractor"
                                     subtitle={
@@ -373,6 +367,17 @@
                                             shipped over 10 scalable softwares overseas end-to-end while in high school. moved out @ 17 to bangalore, life changed a lot since then. founder member @<TextLink href="https://zo.xyz/" text="zo world" />
                                         </span>
                                     }
+                                /> */}
+
+                                <ListItem 
+                                    number="04"
+                                    title={
+                                        <span>
+                                            studied cs @ <TextLink href="https://www.iu.org/" text="iu" />
+                                        </span>
+                                    }
+                                    subtitle="self distance learning"
+                                    meta="(2022-2025)"
                                 />
                             </div>
                         </div>
@@ -380,7 +385,7 @@
                     </div>
                     
                     <motion.footer variants={itemVariants} className="mt-24 text-xs text-muted">
-                        6 {new Date().getFullYear()} Shrutz.
+                     &copy; {new Date().getFullYear()} Shrutz.
                     </motion.footer>
                 </motion.div>
             );
